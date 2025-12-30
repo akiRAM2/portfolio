@@ -495,6 +495,77 @@ function App() {
           </div>
         </motion.section>
 
+        <motion.section
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          variants={staggerContainer}
+          className="section"
+        >
+          <div className="section-title">
+            <Mail className="title-icon" />
+            <h2>Contact</h2>
+          </div>
+          <p className="section-description">
+            お仕事のご依頼やご相談、コミュニティイベントに関するお問い合わせなど、お気軽にご連絡ください。
+          </p>
+
+          <div className="contact-grid">
+            <motion.a
+              variants={fadeInUp}
+              href={`https://x.com/${profile.socials.twitter}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="glass-panel contact-card"
+              whileHover={{ y: -5 }}
+            >
+              <div className="contact-icon-wrapper twitter-bg">
+                <Twitter size={32} />
+              </div>
+              <div className="contact-info">
+                <h3>X (Twitter)</h3>
+                <p>{profile.socials.twitter}</p>
+              </div>
+              <ExternalLink size={16} className="contact-arrow" />
+            </motion.a>
+
+            <motion.button
+              variants={fadeInUp}
+              onClick={() => {
+                navigator.clipboard.writeText(profile.socials.discord);
+                alert('Discord ID をクリップボードにコピーしました！');
+              }}
+              className="glass-panel contact-card w-full text-left"
+              whileHover={{ y: -5 }}
+            >
+              <div className="contact-icon-wrapper discord-bg">
+                <Users size={32} />
+              </div>
+              <div className="contact-info">
+                <h3>Discord</h3>
+                <p>{profile.socials.discord}</p>
+              </div>
+              <span className="text-xs text-slate-400 mt-2 block">Click to Copy</span>
+            </motion.button>
+
+            <motion.a
+              variants={fadeInUp}
+              href={`mailto:${profile.email}`}
+              className="glass-panel contact-card"
+              whileHover={{ y: -5 }}
+            >
+              <div className="contact-icon-wrapper email-bg">
+                <Mail size={32} />
+              </div>
+              <div className="contact-info">
+                <h3>Email</h3>
+                <p>{profile.email}</p>
+              </div>
+              <ExternalLink size={16} className="contact-arrow" />
+            </motion.a>
+          </div>
+        </motion.section>
+
         <footer className="footer">
           <p>© {new Date().getFullYear()} {profile.name}. All rights reserved.</p>
         </footer>

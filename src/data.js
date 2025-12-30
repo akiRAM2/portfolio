@@ -3,7 +3,7 @@
 export const profile = {
   name: "akiRAM",
   role: "XR Content Creator / Community Manager",
-  description: "メタバースを中心に活動するクリエイター。ゲームジャムでの優勝経験多数。企画からデザイン、コミュニティ運営まで幅広く手がけています。",
+  description: "メタバースを中心に活動するクリエイター。\n企画からデザイン、コミュニティ運営まで幅広く手がけています。",
   email: "akiram2022@gmail.com",
   socials: {
     twitter: "@akiram_vr",
