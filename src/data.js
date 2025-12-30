@@ -1,4 +1,4 @@
-﻿import { FaGamepad, FaLayerGroup, FaUsers, FaBookOpen, FaDesktop } from 'react-icons/fa6';
+﻿import { PiGameController, PiStack, PiUsers, PiBookOpen, PiMonitor } from 'react-icons/pi';
 
 export const profile = {
   name: "akiRAM",
@@ -12,11 +12,11 @@ export const profile = {
 };
 
 export const skills = [
-  { name: "Game Direction", icon: FaGamepad },
-  { name: "3D/2D Design", icon: FaLayerGroup },
-  { name: "Community Management", icon: FaUsers },
-  { name: "Technical Writing", icon: FaBookOpen },
-  { name: "System & Network Admin (Former)", icon: FaDesktop },
+  { name: "Game Direction", icon: PiGameController },
+  { name: "3D/2D Design", icon: PiStack },
+  { name: "Community Management", icon: PiUsers },
+  { name: "Technical Writing", icon: PiBookOpen },
+  { name: "System & Network Admin (Former)", icon: PiMonitor },
 ];
 
 export const projects = [

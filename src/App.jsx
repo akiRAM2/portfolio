@@ -1,6 +1,6 @@
 ﻿import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaXTwitter, FaEnvelope, FaStar, FaLayerGroup, FaCube, FaXmark, FaFileLines, FaArrowUpRightFromSquare, FaUsers } from 'react-icons/fa6';
+import { PiXLogo, PiEnvelope, PiSparkle, PiStack, PiCube, PiX, PiFileText, PiArrowSquareOut, PiUsers } from 'react-icons/pi';
 import { profile, projects, skills, assets, articles, certifications } from './data';
 import './index.css';
 
@@ -41,7 +41,7 @@ function Hero() {
         </p>
         <div className="social-links">
           <a href={`https://x.com/${profile.socials.twitter}`} target="_blank" rel="noopener noreferrer" className="social-icon twitter">
-            <FaXTwitter size={24} />
+            <PiXLogo size={24} />
           </a>
           <button
             onClick={() => {
@@ -54,7 +54,7 @@ function Hero() {
             <span className="discord-text">Discord: {profile.socials.discord}</span>
           </button>
           <a href={`mailto:${profile.email}`} className="social-icon email">
-            <FaEnvelope size={24} />
+            <PiEnvelope size={24} />
           </a>
         </div>
       </motion.div>
@@ -160,14 +160,14 @@ function ArticleCard({ article }) {
         )}
         <div className="article-content">
           <div className="article-header">
-            <FaFileLines size={20} className="article-icon" />
+            <PiFileText size={20} className="article-icon" />
             <span className="article-platform">{article.platform}</span>
           </div>
           <h3 className="card-title article-title">{article.title}</h3>
           <p className="description line-clamp-2">{article.description}</p>
           <div className="article-link">
             <span>記事を読む</span>
-            <FaArrowUpRightFromSquare size={16} />
+            <PiArrowSquareOut size={16} />
           </div>
         </div>
       </a>
@@ -214,9 +214,9 @@ function Modal({ item, onClose }) {
               rel="noopener noreferrer"
               className="x-link-button"
             >
-              <FaXTwitter size={20} />
+              <PiXLogo size={20} />
               <span>X（Twitter）で見る</span>
-              <FaArrowUpRightFromSquare size={16} />
+              <PiArrowSquareOut size={16} />
             </a>
           </div>
         );
@@ -285,7 +285,7 @@ function Modal({ item, onClose }) {
           onClick={onClose}
           className="absolute top-4 right-4 p-2 rounded-full bg-slate-100 hover:bg-slate-200 transition-colors z-10"
         >
-          <FaXmark size={24} className="text-slate-600" />
+          <PiX size={24} className="text-slate-600" />
         </button>
 
         <div className="p-0">
@@ -351,7 +351,7 @@ function App() {
           className="section"
         >
           <div className="section-title">
-            <FaStar className="title-icon" />
+            <PiSparkle className="title-icon" />
             <h2>Selected Projects</h2>
           </div>
           <p className="section-description">
@@ -376,7 +376,7 @@ function App() {
           className="section"
         >
           <div className="section-title">
-            <FaCube className="title-icon" />
+            <PiCube className="title-icon" />
             <h2>3D Assets & Works</h2>
           </div>
           <p className="section-description">
@@ -401,7 +401,7 @@ function App() {
           className="section"
         >
           <div className="section-title">
-            <FaUsers className="title-icon" />
+            <PiUsers className="title-icon" />
             <h2>Community Events</h2>
           </div>
           <p className="section-description">
@@ -424,7 +424,7 @@ function App() {
               className="events-link"
             >
               <span>活動実績を見る</span>
-              <FaArrowUpRightFromSquare size={16} />
+              <PiArrowSquareOut size={16} />
             </a>
           </motion.div>
         </motion.section>
@@ -437,7 +437,7 @@ function App() {
           className="section"
         >
           <div className="section-title">
-            <FaFileLines className="title-icon purple" />
+            <PiFileText className="title-icon purple" />
             <h2>Technical Writing</h2>
           </div>
           <p className="section-description">
@@ -458,7 +458,7 @@ function App() {
           className="section"
         >
           <div className="section-title">
-            <FaLayerGroup className="title-icon purple" />
+            <PiStack className="title-icon purple" />
             <h2>Skills & Expertise</h2>
           </div>
           <p className="section-description">
@@ -503,7 +503,7 @@ function App() {
           className="section"
         >
           <div className="section-title">
-            <FaEnvelope className="title-icon" />
+            <PiEnvelope className="title-icon" />
             <h2>Contact</h2>
           </div>
           <p className="section-description">
@@ -520,13 +520,13 @@ function App() {
               whileHover={{ y: -5 }}
             >
               <div className="contact-icon-wrapper twitter-bg">
-                <FaXTwitter size={32} />
+                <PiXLogo size={32} />
               </div>
               <div className="contact-info">
                 <h3>X (Twitter)</h3>
                 <p>{profile.socials.twitter}</p>
               </div>
-              <FaArrowUpRightFromSquare size={16} className="contact-arrow" />
+              <PiArrowSquareOut size={16} className="contact-arrow" />
             </motion.a>
 
             <motion.button
@@ -539,7 +539,7 @@ function App() {
               whileHover={{ y: -5 }}
             >
               <div className="contact-icon-wrapper discord-bg">
-                <FaUsers size={32} />
+                <PiUsers size={32} />
               </div>
               <div className="contact-info">
                 <h3>Discord</h3>
@@ -555,13 +555,13 @@ function App() {
               whileHover={{ y: -5 }}
             >
               <div className="contact-icon-wrapper email-bg">
-                <FaEnvelope size={32} />
+                <PiEnvelope size={32} />
               </div>
               <div className="contact-info">
                 <h3>Email</h3>
                 <p>{profile.email}</p>
               </div>
-              <FaArrowUpRightFromSquare size={16} className="contact-arrow" />
+              <PiArrowSquareOut size={16} className="contact-arrow" />
             </motion.a>
           </div>
         </motion.section>
