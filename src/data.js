@@ -1,4 +1,4 @@
-import { Gamepad2, Layers, Users, PenTool, Layout, Monitor, BookOpen } from 'lucide-react';
+﻿import { Gamepad2, Layers, Users, PenTool, Layout, Monitor, BookOpen } from 'lucide-react';
 
 export const profile = {
   name: "akiRAM",
@@ -144,7 +144,7 @@ akiRAM - Visual Artist`
     description: "リアルなライティング表現にこだわったショート動画。UE5ぷちコン参加作品。",
     category: "Video",
     tags: ["Visual Artist/Co-Director"],
-    imageUrl: "/images/train_light.jpg",
+    imageUrl: "/portfolio/images/train_light.jpg",
     detail: `UE5の次世代ライティング技術"Lumen"を活用した、1分間のリアルタイムレンダリング映像作品。1週間の制作期間で完成させ、「UE5ぷちコン 映像編」に出品しました。
 
 【担当領域】ビジュアル全般、既存モデルのUE最適化、背景のキットバッシュ、Blueprint実装、ライティング設計、Niagaraパーティクル実装
@@ -169,7 +169,7 @@ akiRAM - Visual Artist`
     description: "VR空間内の期間限定イベントワールド企画運営。",
     category: "Event",
     tags: ["Organizer"],
-    imageUrl: "/images/steller_memories.jpg",
+    imageUrl: "/portfolio/images/steller_memories.jpg",
     detail: `Resoniteサービス開始1周年を記念した、コミュニティアーカイブプロジェクト。VR空間の住民を登録・記録し、コミュニティの歴史を後世に残すことをコンセプトとしたイベントワールドです。
 
 【実績】(1年目)1週間の稼働期間で279名の住民が登録(2年目)1週間の稼働期間で303名の住民が登録
@@ -200,7 +200,7 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
     description: "縦スクロールジャンプアクションゲーム。Unity1週間ゲームジャム参加作品。",
     category: "Game",
     tags: ["Director"],
-    imageUrl: "/images/omoide_furu_sora.png",
+    imageUrl: "/portfolio/images/omoide_furu_sora.png",
     detail: `ブラウザゲーム共有プラットフォーム「Unityroom」で開催された「Unity1週間ゲームジャム」参加作品。ワンボタン操作の縦スクロール型2Dアクションゲームとして、1プレイ2-3分で楽しめる設計を実現しました。
 
 【担当領域】ディレクション、背景グラフィック、ロゴデザイン
@@ -218,7 +218,7 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
     description: "450人規模のMisskeyサーバー運営。",
     category: "Community",
     tags: ["Community Manager"],
-    imageUrl: "/images/3dcgsuki.png",
+    imageUrl: "/portfolio/images/3dcgsuki.png",
     detail: `3DCG愛好者が集まるコミュニティスペースとして、分散型SNS「Misskey」上に専用サーバーを共同開設。
 
 定期イベント「モデリングジャム」の企画・運営を通じて、450名規模のコミュニティへと成長させました。
@@ -286,7 +286,7 @@ linki9s7(Leader)
     description: "お祭りテーマの小物アセット制作©WeaverseLab株式会社",
     category: "Assets",
     tags: ["3D Assets"],
-    imageUrl: "/images/vketreal2024.webp",
+    imageUrl: "/portfolio/images/vketreal2024.webp",
     detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
 
 【制作アセット】太鼓、杵・臼、土俵など
@@ -302,7 +302,7 @@ linki9s7(Leader)
     description: "VRChat向けアクセサリー・3Dアセット販売",
     category: "Assets",
     tags: ["3D Assets", "Sales"],
-    imageUrl: "/images/booths.jpg",
+    imageUrl: "/portfolio/images/booths.jpg",
     detail: `主にVRChat向けアクセサリー・背景3Dアセットを「BOOTH」にて販売。「端子しっぽ」などニッチな需要に応えるアクセサリー商品を展開しています。
 
 バーチャル空間上の商品展示会「バーチャルマーケット」「メタフェス」「X-NEOKET」等にも出展。
@@ -329,42 +329,42 @@ export const articles = [
     description: "Resonite内トゥーンシェーダー「XiexeToon」の詳細な使い方と設定方法を解説。",
     url: "https://note.com/akiram_vr/n/n00509a37a7f6",
     platform: "note",
-    imageUrl: "/images/xiexetoon2.jpg"
+    imageUrl: "/portfolio/images/xiexetoon2.jpg"
   },
   {
     title: "Resoniteひとくち技術メモ - パーティクル編",
     description: "Resoniteでパーティクルシステムを使用する際の基本的な設定方法と、実践的なテクニックを初心者向けに解説。",
     url: "https://note.com/akiram_vr/n/n4a237ffe0f58",
     platform: "note",
-    imageUrl: "/images/particle.webp"
+    imageUrl: "/portfolio/images/particle.webp"
   },
   {
     title: "Resoniteひとくち技術メモ - 浮遊プラットフォーム編",
     description: "Resoniteで浮遊するプラットフォームを実装する方法を、ステップバイステップで丁寧に解説。",
     url: "https://note.com/akiram_vr/n/n7caee96cf6b6",
     platform: "note",
-    imageUrl: "/images/platform.webp"
+    imageUrl: "/portfolio/images/platform.webp"
   },
   {
     title: "Resoniteで3Dモデルを配布しよう！",
     description: "Resoniteで自作3Dモデルを他のユーザーに配布する方法を、初心者向けに分かりやすく解説。",
     url: "https://note.com/akiram_vr/n/nf1b28fdf246b",
     platform: "note",
-    imageUrl: "/images/3dmodel.webp"
+    imageUrl: "/portfolio/images/3dmodel.webp"
   },
   {
     title: "分散型SNS「Concrnt」の紹介",
     description: "次世代分散型SNS「Concrnt」の特徴と使い方を、導入から基本操作まで分かりやすく紹介。",
     url: "https://note.com/akiram_vr/n/nfe5419e4ba2a",
     platform: "note",
-    imageUrl: "/images/concrnt.webp"
+    imageUrl: "/portfolio/images/concrnt.webp"
   },
   {
     title: "【手順解説】Resoniteヘッドレスサーバの建て方！",
     description: "Resoniteのヘッドレスサーバーをセットアップするための完全ガイド。初めての方でも迷わず構築できるよう詳細に解説。",
     url: "https://note.com/akiram_vr/n/n695fca3ac4f8",
     platform: "note",
-    imageUrl: "/images/headless.webp"
+    imageUrl: "/portfolio/images/headless.webp"
   }
 ];
 
