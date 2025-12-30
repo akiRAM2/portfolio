@@ -223,11 +223,24 @@ button.social-icon {
 }
 
 /* Projects */
+
+
+/* Projects */
 .projects-grid,
 .assets-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  /* モバイルは強制2列 */
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+
+  .projects-grid,
+  .assets-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
 }
 
 .project-card {
@@ -308,6 +321,14 @@ button.social-icon {
   color: var(--accent-purple);
   margin-bottom: 0.5rem;
   font-weight: 600;
+  display: none;
+  /* モバイルでは非表示 */
+}
+
+@media (min-width: 768px) {
+  .platform {
+    display: block;
+  }
 }
 
 .description {
@@ -315,6 +336,14 @@ button.social-icon {
   flex-grow: 1;
   margin-bottom: 1.5rem;
   font-size: 0.95rem;
+  display: none !important;
+  /* モバイルでは非表示 */
+}
+
+@media (min-width: 768px) {
+  .description {
+    display: block;
+  }
 }
 
 .tags {
@@ -507,6 +536,14 @@ button.social-icon {
   font-size: 1rem;
   margin-bottom: 2rem;
   max-width: 700px;
+  display: none;
+  /* モバイルでは非表示 */
+}
+
+@media (min-width: 768px) {
+  .section-description {
+    display: block;
+  }
 }
 
 /* Articles */

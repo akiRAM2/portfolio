@@ -283,9 +283,9 @@ function Modal({ item, onClose }) {
       >
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 p-2 rounded-full bg-slate-100 hover:bg-slate-200 transition-colors z-10"
+          className="fixed top-4 right-4 p-3 bg-black/50 hover:bg-black/70 backdrop-blur-md text-white rounded-full transition-all z-50 group border border-white/20 shadow-lg hover:scale-110 active:scale-95"
         >
-          <PiX size={24} className="text-slate-600" />
+          <PiX size={30} className="group-hover:rotate-90 transition-transform" />
         </button>
 
         <div className="p-0">
@@ -328,6 +328,13 @@ function Modal({ item, onClose }) {
                 ))}
               </div>
             )}
+
+            <button
+              onClick={onClose}
+              className="w-full mt-8 py-3 bg-slate-100 rounded-lg font-bold text-slate-700 hover:bg-slate-200 transition-colors"
+            >
+              戻る
+            </button>
           </div>
         </div>
       </motion.div>

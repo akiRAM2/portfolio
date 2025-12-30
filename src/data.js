@@ -143,7 +143,7 @@ akiRAM - Visual Artist`
     role: "All (Team of 2)",
     description: "リアルなライティング表現にこだわったショート動画。UE5ぷちコン参加作品。",
     category: "Video",
-    tags: ["Visual Artist/Co-Director"],
+    tags: ["Co-Director"],
     imageUrl: "/portfolio/images/train_light.jpg",
     detail: `UE5の次世代ライティング技術"Lumen"を活用した、1分間のリアルタイムレンダリング映像作品。1週間の制作期間で完成させ、「UE5ぷちコン 映像編」に出品しました。
 
@@ -275,7 +275,7 @@ Vket2025 Winterに出展している様子
 ![VketReal画像](/portfolio/images/vketreal2024_2.webp)`
   },
   {
-    title: "コンビニおにぎり/Konbini Onigiri",
+    title: "コンビニおにぎり",
     year: "2025",
     description: "VRおにぎり開封シミュレーター",
     category: "World",
