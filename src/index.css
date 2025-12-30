@@ -59,10 +59,7 @@ ul {
 }
 
 .text-gradient {
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--text-primary);
 }
 
 .glass-panel {
@@ -829,6 +826,7 @@ button.social-icon {
   border-top: 1px solid var(--border-color);
   margin-top: 4rem;
 }
+
 /* Contact Section */
 .contact-grid {
   display: grid;
@@ -912,4 +910,3 @@ button.social-icon {
 .hero-description {
   white-space: pre-wrap;
 }
-
