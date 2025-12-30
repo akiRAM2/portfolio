@@ -234,6 +234,47 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
 
 export const assets = [
   {
+    title: "BOOTHアセット販売",
+    year: "Ongoing",
+    description: "VRChat向けアクセサリー・3Dアセット販売",
+    category: "Assets",
+    tags: ["3D Assets", "Sales"],
+    imageUrl: "/portfolio/images/booths.jpg",
+    detail: `主にVRChat向けアクセサリー・背景3Dアセットを「BOOTH」にて販売。「端子しっぽ」などニッチな需要に応えるアクセサリー商品を展開しています。
+
+バーチャル空間上の商品展示会「バーチャルマーケット」「メタフェス」「X-NEOKET」等にも出展。
+
+【ショップ情報】
+▶ 個人ショップ「akiRAM」: https://akiram.booth.pm/
+▶ 共同ショップ「SHIBRAMS」(soncho氏と共同運営): https://shibrams.booth.pm/
+
+
+![BOOTHイベント画像](/portfolio/images/event1.jpg)
+Vket2024 Winterに出展している様子
+
+![BOOTHイベント画像](/portfolio/images/event2.jpg)
+Vket2025 Winterに出展している様子
+
+![BOOTHイベント画像](/portfolio/images/event3.jpg)
+『サキュバス酒場』に掲示している様子`
+  },
+  {
+    title: "VketReal 2024 Summer 'AVATAR MEETS'",
+    year: "2024",
+    description: "お祭りテーマの小物アセット制作©WeaverseLab株式会社",
+    category: "Assets",
+    tags: ["3D Assets"],
+    imageUrl: "/portfolio/images/vketreal2024.webp",
+    detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
+
+【制作アセット】太鼓、杵・臼、土俵など
+日本らしいモチーフを実在感のある質感で表現しつつ、VR空間での映えを意識した揺れもの要素や、インタラクションに応じたEmission発光ギミックを使用できるようにしました。視覚的な楽しさとインタラクティブ性を両立させました。
+
+▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
+
+![VketReal画像](/portfolio/images/vketreal2024_2.webp)`
+  },
+  {
     title: "コンビニおにぎり/Konbini Onigiri",
     year: "2025",
     description: "VRおにぎり開封シミュレーター",
@@ -279,47 +320,6 @@ doron`
 Credit:
 linki9s7(Leader)
 `
-  },
-  {
-    title: "VketReal 2024 Summer 'AVATAR MEETS'",
-    year: "2024",
-    description: "お祭りテーマの小物アセット制作©WeaverseLab株式会社",
-    category: "Assets",
-    tags: ["3D Assets"],
-    imageUrl: "/portfolio/images/vketreal2024.webp",
-    detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
-
-【制作アセット】太鼓、杵・臼、土俵など
-日本らしいモチーフを実在感のある質感で表現しつつ、VR空間での映えを意識した揺れもの要素や、インタラクションに応じたEmission発光ギミックを使用できるようにしました。視覚的な楽しさとインタラクティブ性を両立させました。
-
-▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
-
-![VketReal画像](/portfolio/images/vketreal2024_2.webp)`
-  },
-  {
-    title: "BOOTHアセット販売",
-    year: "Ongoing",
-    description: "VRChat向けアクセサリー・3Dアセット販売",
-    category: "Assets",
-    tags: ["3D Assets", "Sales"],
-    imageUrl: "/portfolio/images/booths.jpg",
-    detail: `主にVRChat向けアクセサリー・背景3Dアセットを「BOOTH」にて販売。「端子しっぽ」などニッチな需要に応えるアクセサリー商品を展開しています。
-
-バーチャル空間上の商品展示会「バーチャルマーケット」「メタフェス」「X-NEOKET」等にも出展。
-
-【ショップ情報】
-▶ 個人ショップ「akiRAM」: https://akiram.booth.pm/
-▶ 共同ショップ「SHIBRAMS」(soncho氏と共同運営): https://shibrams.booth.pm/
-
-
-![BOOTHイベント画像](/portfolio/images/event1.jpg)
-Vket2024 Winterに出展している様子
-
-![BOOTHイベント画像](/portfolio/images/event2.jpg)
-Vket2025 Winterに出展している様子
-
-![BOOTHイベント画像](/portfolio/images/event3.jpg)
-『サキュバス酒場』に掲示している様子`
   }
 ];
 
