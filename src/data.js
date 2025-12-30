@@ -380,6 +380,11 @@ export const certifications = [
     date: "2025"
   },
   {
+    name: "インテル PCマイスター",
+    level: "<中級>",
+    date: "2025"
+  },
+  {
     name: "CCNA",
     level: "(Cisco Certified Network Associate)",
     date: "2019"
