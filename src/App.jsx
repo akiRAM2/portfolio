@@ -223,7 +223,7 @@ function Modal({ item, onClose }) {
       }
 
       // Check if line contains image URL
-      const imageMatch = line.match(/!\[(.*?)\]\((\/images\/[^\s)]+)\)/);
+      const imageMatch = line.match(/!\[(.*?)\]\((.*\/images\/[^\s)]+)\)/);
 
       if (imageMatch) {
         // Return image element
