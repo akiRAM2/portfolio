@@ -38,9 +38,9 @@ export const projects = [
 
 直感的なUI設計、演出の完成度、ポータビリティの革新性が評価され、"Other-Misc"部門で優勝を獲得しました。
 
-![SHOCK STICK画像](/images/shockstick1.webp)
-![SHOCK STICK画像](/images/shockstick2.webp)
-![SHOCK STICK画像](/images/shockstick3.webp)
+![SHOCK STICK画像](/portfolio/images/shockstick1.webp)
+![SHOCK STICK画像](/portfolio/images/shockstick2.webp)
+![SHOCK STICK画像](/portfolio/images/shockstick3.webp)
 
 Credits:
 @akiram_vr – Director, 3D Modeler, UI Designer, Sound
@@ -72,8 +72,8 @@ Credits:
 ▶ 詳細: https://x.com/akiram_vr/status/1974962804403708332
 
 
-![いろいろおばけ画像](/images/iroiro2.jpg)
-![いろいろおばけ画像](/images/iroiro3.jpg)
+![いろいろおばけ画像](/portfolio/images/iroiro2.jpg)
+![いろいろおばけ画像](/portfolio/images/iroiro3.jpg)
 
 Credits:
 sisizanohito - Leader
@@ -125,11 +125,11 @@ OGURI - 3D Modeler, Voice
 
 完成度の高いビジュアル表現とプロモーション戦略が評価され、激戦区である"Game"部門で優勝を獲得しました。
 
-![下へ参ります画像](/images/goingdown.webp)
-![下へ参ります画像](/images/goingdown2.webp)
-![下へ参ります画像](/images/goingdown3.webp)
-![下へ参ります画像](/images/goingdown4.webp)
-![下へ参ります画像](/images/goingdown5.webp)
+![下へ参ります画像](/portfolio/images/goingdown.webp)
+![下へ参ります画像](/portfolio/images/goingdown2.webp)
+![下へ参ります画像](/portfolio/images/goingdown3.webp)
+![下へ参ります画像](/portfolio/images/goingdown4.webp)
+![下へ参ります画像](/portfolio/images/goingdown5.webp)
 
 Credits:
 sisizanohito - Leader
@@ -156,10 +156,10 @@ akiRAM - Visual Artist`
 
 ▶ 視聴リンク: https://www.youtube.com/embed/JxSERL5VrX4?rel=0
 
-![Train Light画像](/images/trainlight1.webp)
-![Train Light画像](/images/TrainLight2.webp)
-![Train Light画像](/images/TrainLight3.webp)
-![Train Light画像](/images/TrainLight4.webp)`
+![Train Light画像](/portfolio/images/trainlight1.webp)
+![Train Light画像](/portfolio/images/TrainLight2.webp)
+![Train Light画像](/portfolio/images/TrainLight3.webp)
+![Train Light画像](/portfolio/images/TrainLight4.webp)`
   },
   {
     title: "Steller Memories",
@@ -181,14 +181,14 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
 **2年目 (2025):**
 ▶ 紹介動画: https://www.youtube.com/embed/QQoKfTf0gY4?rel=0
 
-![Steller Memories 2年目](/images/steallar4.jpg)
-![Steller Memories 2年目](/images/steallar5.jpg)
+![Steller Memories 2年目](/portfolio/images/steallar4.jpg)
+![Steller Memories 2年目](/portfolio/images/steallar5.jpg)
 
 **1年目 (2024):**
 ▶ 紹介動画: https://www.youtube.com/embed/QmPZ7x7cQH0?rel=0
 
-![Steller Memories 1年目](/images/stellar2.webp)
-![Steller Memories 1年目](/images/stellar3.webp)
+![Steller Memories 1年目](/portfolio/images/stellar2.webp)
+![Steller Memories 1年目](/portfolio/images/stellar3.webp)
 `
   },
 
@@ -228,7 +228,7 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
 
 ▶ Concrnt内の3DCGスキ!コミュニティ: https://concrnt.world/timeline/t9f9xc9t3eegkxnqf06a6x7qm0c@ariake.concrnt.net
 
-![3DCGすきー画像](/images/3dcgsuki_event.webp)`
+![3DCGすきー画像](/portfolio/images/3dcgsuki_event.webp)`
   }
 ];
 
@@ -249,9 +249,9 @@ export const assets = [
 
 ▶ デモ動画: https://www.youtube.com/watch?v=zEC--DewPHM
 
-![コンビニおにぎり画像](/images/konbini2.webp)
-![コンビニおにぎり画像](/images/konbini3.webp)
-![コンビニおにぎり画像](/images/konibini4.webp)
+![コンビニおにぎり画像](/portfolio/images/konbini2.webp)
+![コンビニおにぎり画像](/portfolio/images/konbini3.webp)
+![コンビニおにぎり画像](/portfolio/images/konibini4.webp)
 Credit:
 MotoMaid
 akiRAM
@@ -272,9 +272,9 @@ doron`
 
 ▶ 紹介PV: https://www.youtube.com/watch?v=H3fBKUaqlHU
 
-![すごトーク画像](/images/sugotalk.webp)
-![すごトーク画像](/images/sugotalk2.webp)
-![すごトーク画像](/images/sugotalk3.webp)
+![すごトーク画像](/portfolio/images/sugotalk.webp)
+![すごトーク画像](/portfolio/images/sugotalk2.webp)
+![すごトーク画像](/portfolio/images/sugotalk3.webp)
 
 Credit:
 linki9s7(Leader)
@@ -294,7 +294,7 @@ linki9s7(Leader)
 
 ▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
 
-![VketReal画像](/images/vketreal2024_2.webp)`
+![VketReal画像](/portfolio/images/vketreal2024_2.webp)`
   },
   {
     title: "BOOTHアセット販売",
@@ -312,13 +312,13 @@ linki9s7(Leader)
 ▶ 共同ショップ「SHIBRAMS」(soncho氏と共同運営): https://shibrams.booth.pm/
 
 
-![BOOTHイベント画像](/images/event1.jpg)
+![BOOTHイベント画像](/portfolio/images/event1.jpg)
 Vket2024 Winterに出展している様子
 
-![BOOTHイベント画像](/images/event2.jpg)
+![BOOTHイベント画像](/portfolio/images/event2.jpg)
 Vket2025 Winterに出展している様子
 
-![BOOTHイベント画像](/images/event3.jpg)
+![BOOTHイベント画像](/portfolio/images/event3.jpg)
 『サキュバス酒場』に掲示している様子`
   }
 ];
