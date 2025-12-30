@@ -1,4 +1,4 @@
-﻿import { Gamepad2, Layers, Users, PenTool, Layout, Monitor, BookOpen } from 'lucide-react';
+﻿import { FaGamepad, FaLayerGroup, FaUsers, FaBookOpen, FaDesktop } from 'react-icons/fa6';
 
 export const profile = {
   name: "akiRAM",
@@ -12,11 +12,11 @@ export const profile = {
 };
 
 export const skills = [
-  { name: "Game Direction", icon: Gamepad2 },
-  { name: "3D/2D Design", icon: Layers },
-  { name: "Community Management", icon: Users },
-  { name: "Technical Writing", icon: BookOpen },
-  { name: "System & Network Admin (Former)", icon: Monitor },
+  { name: "Game Direction", icon: FaGamepad },
+  { name: "3D/2D Design", icon: FaLayerGroup },
+  { name: "Community Management", icon: FaUsers },
+  { name: "Technical Writing", icon: FaBookOpen },
+  { name: "System & Network Admin (Former)", icon: FaDesktop },
 ];
 
 export const projects = [
