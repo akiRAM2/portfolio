@@ -381,7 +381,7 @@ function App() {
             <h2>Selected Projects</h2>
           </div>
           <p className="section-description">
-            自主制作プロジェクトを中心に、ゲームジャムやコンペティションでの作品制作に多数参加。企画、ディレクション、デザイン、運営まで幅広く担当しています。
+            ゲームジャムやコンペティションでの作品制作に多数参加。企画、ディレクション、3Dアセットやロゴ・UIデザイン、PV動画などの制作や、コミュニティの運営まで幅広く担当しています。
           </p>
           <div className="projects-grid">
             {projects.map((project, index) => (
@@ -406,7 +406,7 @@ function App() {
             <h2>3D Assets & Works</h2>
           </div>
           <p className="section-description">
-            VR向け3Dアセットの制作、受託、販売、配布を行っています。リアル連動イベントの小物制作や、VRChat・Resonite向けのアクセサリー制作など。
+            VR/ゲーム向け3Dアセットの販売や配布、受託制作を行っています。
           </p>
           <div className="projects-grid">
             {assets.map((asset, index) => (
@@ -488,7 +488,7 @@ function App() {
             <h2>Skills & Expertise</h2>
           </div>
           <p className="section-description">
-            ゲームディレクション、3D/2Dデザイン、コミュニティマネジメント、技術ドキュメント執筆など、多岐にわたるスキルセットを保有しています。
+            ゲームディレクション、3Dアセットやロゴ・UIのデザイン、コミュニティマネジメント、技術ドキュメント執筆など、多岐にわたるスキルセットを保有しています。
           </p>
           <div className="skills-grid">
             {skills.map((skill, index) => (
