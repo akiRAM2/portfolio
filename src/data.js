@@ -29,6 +29,7 @@ export const projects = [
     category: "Game",
     tags: ["Director", "Designer"],
     imageUrl: "https://www.youtube.com/embed/fV47s69U8f0?rel=0",
+    thumbnailUrl: "/portfolio/images/shock.mp4",
     detail: `1ヵ月間でResonite上に制作した、国際コンペティション「MMC25」に向けた体感型VRアトラクションゲーム。
 
 バラエティ番組で広く知られる「イライラ棒」の直感的なゲーム性とインパクトのある演出をVRで再現。Resoniteの特徴である「どこでもアイテムを取り出せる」機能と組み合わせることで、持ち運び可能な体感型ゲームとして実装しました。
@@ -60,6 +61,7 @@ Credits:
     category: "Game",
     tags: ["Designer"],
     imageUrl: "https://www.youtube.com/embed/-ahH8RTy4pg?rel=0",
+    thumbnailUrl: "/portfolio/images/iroiro.mp4",
     detail: `WeaverseLab株式会社様主催の、Resoniteを使用したLBEコンテンツのコンペティション応募作品。
 
 【担当領域】ゲームシステムのアイデア出し、3Dアセット制作
@@ -90,6 +92,7 @@ akiRAM - Designer
     category: "Game",
     tags: ["Director", "Designer"],
     imageUrl: "https://www.youtube.com/embed/p3AnBvtT-xM?rel=0",
+    thumbnailUrl: "/portfolio/images/oretate.mp4",
     detail: `WeaverseLab株式会社主催のResoniteを使用したVIVE LBEシステム向けコンペティション応募作品。
 
 【担当領域】企画、ディレクション
@@ -116,6 +119,7 @@ OGURI - 3D Modeler, Voice
     category: "Game",
     tags: ["Designer"],
     imageUrl: "https://www.youtube.com/embed/ycWLUtaFI3w?rel=0",
+    thumbnailUrl: "/portfolio/images/goingdown.mp4",
     detail: `1ヵ月の期間でResonite上に制作された、国際コンペティション「MMC24」向けVRマルチプレイ対応の間違い探しゲーム。
 
 新興ジャンル「探索型間違い探し」にいち早く着目し、VR空間とマルチプレイ要素を統合した作品として差別化を図りました。
@@ -144,7 +148,8 @@ akiRAM - Visual Artist`
     description: "リアルなライティング表現にこだわったショート動画。UE5ぷちコン参加作品。",
     category: "Video",
     tags: ["Co-Director"],
-    imageUrl: "/portfolio/images/train_light.jpg",
+    imageUrl: "https://www.youtube.com/embed/JxSERL5VrX4?rel=0",
+    thumbnailUrl: "/portfolio/images/train_light.mp4",
     detail: `UE5の次世代ライティング技術"Lumen"を活用した、1分間のリアルタイムレンダリング映像作品。1週間の制作期間で完成させ、「UE5ぷちコン 映像編」に出品しました。
 
 【担当領域】ビジュアル全般、既存モデルのUE最適化、背景のキットバッシュ、Blueprint実装、ライティング設計、Niagaraパーティクル実装
@@ -169,7 +174,8 @@ akiRAM - Visual Artist`
     description: "VR空間内の期間限定イベントワールド企画運営。",
     category: "Event",
     tags: ["Organizer"],
-    imageUrl: "/portfolio/images/steller_memories.jpg",
+    imageUrl: "https://www.youtube.com/embed/QQoKfTf0gY4?rel=0",
+    thumbnailUrl: "/portfolio/images/stellar.mp4",
     detail: `Resoniteサービス開始1周年を記念した、コミュニティアーカイブプロジェクト。VR空間の住民を登録・記録し、コミュニティの歴史を後世に残すことをコンセプトとしたイベントワールドです。
 
 【実績】(1年目)1週間の稼働期間で279名の住民が登録(2年目)1週間の稼働期間で303名の住民が登録
@@ -201,6 +207,7 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
     category: "Game",
     tags: ["Director"],
     imageUrl: "/portfolio/images/omoide_furu_sora.png",
+    thumbnailUrl: "/portfolio/images/omoide.mp4",
     detail: `ブラウザゲーム共有プラットフォーム「Unityroom」で開催された「Unity1週間ゲームジャム」参加作品。ワンボタン操作の縦スクロール型2Dアクションゲームとして、1プレイ2-3分で楽しめる設計を実現しました。
 
 【担当領域】ディレクション、背景グラフィック、ロゴデザイン

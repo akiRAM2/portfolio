@@ -376,7 +376,7 @@ button.social-icon {
 
 @media (min-width: 768px) {
   .description {
-    display: block;
+    display: block !important;
   }
 }
 

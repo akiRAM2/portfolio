@@ -65,19 +65,29 @@ function Hero() {
 function ProjectMedia({ url, title }) {
   if (!url) return <div className="project-media placeholder" />;
 
-  const isVideo = url.includes('youtube.com') || url.includes('youtu.be');
+  const isYouTube = url.includes('youtube.com') || url.includes('youtu.be');
+  const isVideoFile = url.endsWith('.mp4') || url.endsWith('.webm');
 
   return (
     <div className="project-media">
-      {isVideo ? (
+      {isYouTube ? (
         <iframe
           src={url}
           title={title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
+      ) : isVideoFile ? (
+        <video
+          src={url}
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        />
       ) : (
-        <img src={url} alt={title} loading="lazy" />
+        <img src={url} alt={title} loading="lazy" className="w-full h-full object-cover" />
       )}
     </div>
   );
@@ -92,7 +102,7 @@ function ProjectCard({ project, onClick }) {
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
     >
-      <ProjectMedia url={project.imageUrl} title={project.title} />
+      <ProjectMedia url={project.thumbnailUrl || project.imageUrl} title={project.title} />
       <div className="project-content">
         <div className="card-header">
           <span className="badge">{project.category}</span>
@@ -299,6 +309,15 @@ function Modal({ item, onClose }) {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
+              ) : (item.imageUrl.endsWith('.mp4') || item.imageUrl.endsWith('.webm')) ? (
+                <video
+                  src={item.imageUrl}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover"
+                />
               ) : (
                 <img src={item.imageUrl} alt={item.title} className="w-full h-full object-cover" />
               )}
