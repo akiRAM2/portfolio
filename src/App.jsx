@@ -381,7 +381,7 @@ function App() {
             <h2>Selected Projects</h2>
           </div>
           <p className="section-description">
-            ゲームジャムやコンペティションでの作品制作に多数参加。企画、ディレクション、3Dアセットやロゴ・UIデザイン、PV動画などの制作や、コミュニティの運営まで幅広く担当しています。
+            企画・制作からコミュニティ運営まで、多岐にわたる活動の中から一部を抜粋してご紹介します。
           </p>
           <div className="projects-grid">
             {projects.map((project, index) => (
