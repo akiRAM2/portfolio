@@ -31,7 +31,7 @@ export const projects = [
     category: "Game",
     tags: ["Director", "Designer"],
     imageUrl: "https://www.youtube.com/embed/fV47s69U8f0?rel=0",
-    thumbnailUrl: "/portfolio/images/shock.mp4",
+    thumbnailUrl: "/images/shock.mp4",
     detail: `1ヵ月間でResonite上に制作した、国際コンペティション「MMC25」に向けた体感型VRアトラクションゲーム。
 
 バラエティ番組で広く知られる「イライラ棒」の直感的なゲーム性とインパクトのある演出をVRで再現。
@@ -42,9 +42,9 @@ export const projects = [
 
 直感的なUI設計、演出の完成度、ポータビリティの革新性が評価され、"Other-Misc"部門で優勝を獲得しました。
 
-![SHOCK STICK画像](/portfolio/images/shockstick1.webp)
-![SHOCK STICK画像](/portfolio/images/shockstick2.webp)
-![SHOCK STICK画像](/portfolio/images/shockstick3.webp)
+![SHOCK STICK画像](/images/shockstick1.webp)
+![SHOCK STICK画像](/images/shockstick2.webp)
+![SHOCK STICK画像](/images/shockstick3.webp)
 
 Credits:
 @akiram_vr – Director, 3D Modeler, UI Designer, Sound
@@ -64,7 +64,7 @@ Credits:
     category: "Game",
     tags: ["Designer"],
     imageUrl: "https://www.youtube.com/embed/-ahH8RTy4pg?rel=0",
-    thumbnailUrl: "/portfolio/images/iroiro.mp4",
+    thumbnailUrl: "/images/iroiro.mp4",
     detail: `WeaverseLab株式会社様主催の、Resoniteを使用したLBEコンテンツのコンペティション応募作品。
 
 【担当領域】ゲームシステムのアイデア出し、3Dアセット制作、PV制作
@@ -79,8 +79,8 @@ Credits:
 ▶ 詳細: https://x.com/akiram_vr/status/1974962804403708332
 
 
-![いろいろおばけ画像](/portfolio/images/iroiro2.jpg)
-![いろいろおばけ画像](/portfolio/images/iroiro3.jpg)
+![いろいろおばけ画像](/images/iroiro2.jpg)
+![いろいろおばけ画像](/images/iroiro3.jpg)
 
 Credits:
 sisizanohito - Leader
@@ -97,7 +97,7 @@ akiRAM - Designer
     category: "Game",
     tags: ["Director", "Designer"],
     imageUrl: "https://www.youtube.com/embed/p3AnBvtT-xM?rel=0",
-    thumbnailUrl: "/portfolio/images/oretate.mp4",
+    thumbnailUrl: "/images/oretate.mp4",
     detail: `WeaverseLab株式会社主催のResoniteを使用したVIVE LBEシステム向けコンペティション応募作品。
 
 【担当領域】企画、ディレクション、PV制作
@@ -123,7 +123,7 @@ OGURI - 3D Modeler, Voice
     category: "Game",
     tags: ["Designer"],
     imageUrl: "https://www.youtube.com/embed/ycWLUtaFI3w?rel=0",
-    thumbnailUrl: "/portfolio/images/goingdown.mp4",
+    thumbnailUrl: "/images/goingdown.mp4",
     detail: `1ヵ月の期間でResonite上に制作された、国際コンペティション「MMC24」向けVRマルチプレイ対応の間違い探しゲーム。
 
 当時の新興ジャンル「探索型間違い探し」にいち早く着目し、VR空間とマルチプレイ要素を統合した作品として差別化を図りました。
@@ -133,11 +133,11 @@ OGURI - 3D Modeler, Voice
 
 新興ジャンルをいち早く取り入れたこと、また完成度の高いビジュアル表現が評価され、MMCコンペでは毎年激戦区となる部門の"Game"で優勝を獲得しました🏆
 
-![下へ参ります画像](/portfolio/images/goingdown.webp)
-![下へ参ります画像](/portfolio/images/goingdown2.webp)
-![下へ参ります画像](/portfolio/images/goingdown3.webp)
-![下へ参ります画像](/portfolio/images/goingdown4.webp)
-![下へ参ります画像](/portfolio/images/goingdown5.webp)
+![下へ参ります画像](/images/goingdown.webp)
+![下へ参ります画像](/images/goingdown2.webp)
+![下へ参ります画像](/images/goingdown3.webp)
+![下へ参ります画像](/images/goingdown4.webp)
+![下へ参ります画像](/images/goingdown5.webp)
 
 Credits:
 sisizanohito - Leader
@@ -153,7 +153,7 @@ akiRAM - Visual Artist`
     category: "Video",
     tags: ["Co-Director"],
     imageUrl: "https://www.youtube.com/embed/JxSERL5VrX4?rel=0",
-    thumbnailUrl: "/portfolio/images/train_light.mp4",
+    thumbnailUrl: "/images/train_light.mp4",
     detail: `UE5の次世代ライティング技術"Lumen"を活用した、1分間のリアルタイムレンダリング映像作品。1週間の制作期間で完成させ、「UE5ぷちコン 映像編」に出品しました。
 
 【担当領域】ビジュアル全般、既存モデルのUE最適化、背景のキットバッシュ、Blueprint実装、ライティング設計、Niagaraパーティクル実装
@@ -165,10 +165,10 @@ akiRAM - Visual Artist`
 
 ▶ 視聴リンク: https://www.youtube.com/embed/JxSERL5VrX4?rel=0
 
-![Train Light画像](/portfolio/images/trainlight1.webp)
-![Train Light画像](/portfolio/images/TrainLight2.webp)
-![Train Light画像](/portfolio/images/TrainLight3.webp)
-![Train Light画像](/portfolio/images/TrainLight4.webp)`
+![Train Light画像](/images/trainlight1.webp)
+![Train Light画像](/images/TrainLight2.webp)
+![Train Light画像](/images/TrainLight3.webp)
+![Train Light画像](/images/TrainLight4.webp)`
   },
   {
     title: "Steller Memories",
@@ -179,7 +179,7 @@ akiRAM - Visual Artist`
     category: "Event",
     tags: ["Organizer"],
     imageUrl: "https://www.youtube.com/embed/QQoKfTf0gY4?rel=0",
-    thumbnailUrl: "/portfolio/images/stellar.mp4",
+    thumbnailUrl: "/images/stellar.mp4",
     detail: `Resoniteサービス開始1周年を記念した、コミュニティアーカイブプロジェクト。
     Resoniteというプラットフォームの住民を登録・記録し、コミュニティの歴史を後世に残すことをコンセプトとしたイベントワールドです。
 
@@ -191,14 +191,14 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
 
 **2年目 (2025):**
 
-![Steller Memories 2年目](/portfolio/images/steallar4.jpg)
-![Steller Memories 2年目](/portfolio/images/steallar5.jpg)
+![Steller Memories 2年目](/images/steallar4.jpg)
+![Steller Memories 2年目](/images/steallar5.jpg)
 
 **1年目 (2024):**
 ▶ 紹介動画: https://www.youtube.com/embed/QmPZ7x7cQH0?rel=0
 
-![Steller Memories 1年目](/portfolio/images/stellar2.webp)
-![Steller Memories 1年目](/portfolio/images/stellar3.webp)
+![Steller Memories 1年目](/images/stellar2.webp)
+![Steller Memories 1年目](/images/stellar3.webp)
 `
   },
 
@@ -210,8 +210,8 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
     description: "縦スクロールジャンプアクションゲーム。Unity1週間ゲームジャム参加作品。全体の統括、2Dデザインなどを担当。",
     category: "Game",
     tags: ["Director"],
-    imageUrl: "/portfolio/images/omoide_furu_sora.png",
-    thumbnailUrl: "/portfolio/images/omoide.mp4",
+    imageUrl: "/images/omoide_furu_sora.png",
+    thumbnailUrl: "/images/omoide.mp4",
     detail: `ブラウザゲーム共有プラットフォーム「Unityroom」で開催された「Unity1週間ゲームジャム」参加作品。ワンボタン操作の縦スクロール型2Dアクションゲームとして、1プレイ2-3分で楽しめる設計を実現しました。
 
 【担当領域】ディレクション、UIデザイン、背景グラフィック、ロゴデザイン
@@ -230,8 +230,8 @@ BGM: Zozokasu
 SE: linki9s7, Zozokasu
 お茶出し係: MotoMaid
 
-![思い出降る空 ルール説明](/portfolio/images/omoide_rules.png)
-![思い出降る空 クレジット](/portfolio/images/omoide_credit.png)`
+![思い出降る空 ルール説明](/images/omoide_rules.png)
+![思い出降る空 クレジット](/images/omoide_credit.png)`
   },
 
   {
@@ -242,7 +242,7 @@ SE: linki9s7, Zozokasu
     description: "450人規模のMisskeyサーバー運営。",
     category: "Community",
     tags: ["Community Manager"],
-    imageUrl: "/portfolio/images/3dcgsuki.png",
+    imageUrl: "/images/3dcgsuki.png",
     detail: `3DCG愛好者が集まるコミュニティスペースとして、分散型SNS「Misskey」上に専用サーバーを共同開設。
 
 定期イベント「モデリングジャム」の企画・運営を通じて、450名規模のコミュニティへと成長させました。
@@ -252,7 +252,7 @@ SE: linki9s7, Zozokasu
 
 ▶ Concrnt内の3DCGスキ!コミュニティ: https://concrnt.world/timeline/t9f9xc9t3eegkxnqf06a6x7qm0c@ariake.concrnt.net
 
-![3DCGすきー画像](/portfolio/images/3dcgsuki_event.webp)`
+![3DCGすきー画像](/images/3dcgsuki_event.webp)`
   }
 ];
 
@@ -263,7 +263,7 @@ export const assets = [
     description: "VRChat向けアクセサリー・3Dアセット販売",
     category: "Assets",
     tags: ["3D Assets", "Sales"],
-    imageUrl: "/portfolio/images/booths.jpg",
+    imageUrl: "/images/booths.jpg",
     detail: `主にVRChat向けアクセサリー・背景3Dアセットを「BOOTH」にて販売。「端子しっぽ」などニッチな需要に応えるアクセサリー商品を展開しています。
 
 バーチャル空間上の商品展示会「バーチャルマーケット」「メタフェス」「X-NEOKET」等にも出展。
@@ -273,13 +273,13 @@ export const assets = [
 ▶ 共同ショップ「SHIBRAMS」(soncho氏と共同運営): https://shibrams.booth.pm/
 
 
-![BOOTHイベント画像](/portfolio/images/event1.jpg)
+![BOOTHイベント画像](/images/event1.jpg)
 Vket2024 Winterに出展している様子
 
-![BOOTHイベント画像](/portfolio/images/event2.jpg)
+![BOOTHイベント画像](/images/event2.jpg)
 Vket2025 Winterに出展している様子
 
-![BOOTHイベント画像](/portfolio/images/event3.jpg)
+![BOOTHイベント画像](/images/event3.jpg)
 『サキュバス酒場』に掲示している様子`
   },
   {
@@ -288,7 +288,7 @@ Vket2025 Winterに出展している様子
     description: "お祭りテーマの小物アセット制作©WeaverseLab株式会社",
     category: "Assets",
     tags: ["3D Assets"],
-    imageUrl: "/portfolio/images/vketreal2024.webp",
+    imageUrl: "/images/vketreal2024.webp",
     detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
 
 【制作アセット】太鼓、杵・臼、土俵など
@@ -296,7 +296,7 @@ Vket2025 Winterに出展している様子
 
 ▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
 
-![VketReal画像](/portfolio/images/vketreal2024_2.webp)`
+![VketReal画像](/images/vketreal2024_2.webp)`
   },
   {
     title: "コンビニおにぎり",
@@ -316,9 +316,9 @@ Vket2025 Winterに出展している様子
 
 ▶ デモ動画: https://www.youtube.com/watch?v=zEC--DewPHM
 
-![コンビニおにぎり画像](/portfolio/images/konbini2.webp)
-![コンビニおにぎり画像](/portfolio/images/konbini3.webp)
-![コンビニおにぎり画像](/portfolio/images/konibini4.webp)
+![コンビニおにぎり画像](/images/konbini2.webp)
+![コンビニおにぎり画像](/images/konbini3.webp)
+![コンビニおにぎり画像](/images/konibini4.webp)
 Credit:
 MotoMaid
 akiRAM
@@ -339,9 +339,9 @@ doron`
 
 ▶ 紹介PV: https://www.youtube.com/watch?v=H3fBKUaqlHU
 
-![すごトーク画像](/portfolio/images/sugotalk.webp)
-![すごトーク画像](/portfolio/images/sugotalk2.webp)
-![すごトーク画像](/portfolio/images/sugotalk3.webp)
+![すごトーク画像](/images/sugotalk.webp)
+![すごトーク画像](/images/sugotalk2.webp)
+![すごトーク画像](/images/sugotalk3.webp)
 
 Credit:
 linki9s7(Leader)
@@ -355,42 +355,42 @@ export const articles = [
     description: "Resonite内トゥーンシェーダー「XiexeToon」の詳細な使い方と設定方法を解説。",
     url: "https://note.com/akiram_vr/n/n00509a37a7f6",
     platform: "note",
-    imageUrl: "/portfolio/images/xiexetoon2.jpg"
+    imageUrl: "/images/xiexetoon2.jpg"
   },
   {
     title: "Resoniteひとくち技術メモ - パーティクル編",
     description: "Resoniteでパーティクルシステムを使用する際の基本的な設定方法と、実践的なテクニックを初心者向けに解説。",
     url: "https://note.com/akiram_vr/n/n4a237ffe0f58",
     platform: "note",
-    imageUrl: "/portfolio/images/particle.webp"
+    imageUrl: "/images/particle.webp"
   },
   {
     title: "Resoniteひとくち技術メモ - 浮遊プラットフォーム編",
     description: "Resoniteで浮遊するプラットフォームを実装する方法を、ステップバイステップで丁寧に解説。",
     url: "https://note.com/akiram_vr/n/n7caee96cf6b6",
     platform: "note",
-    imageUrl: "/portfolio/images/platform.webp"
+    imageUrl: "/images/platform.webp"
   },
   {
     title: "Resoniteで3Dモデルを配布しよう！",
     description: "Resoniteで自作3Dモデルを他のユーザーに配布する方法を、初心者向けに分かりやすく解説。",
     url: "https://note.com/akiram_vr/n/nf1b28fdf246b",
     platform: "note",
-    imageUrl: "/portfolio/images/3dmodel.webp"
+    imageUrl: "/images/3dmodel.webp"
   },
   {
     title: "分散型SNS「Concrnt」の紹介",
     description: "次世代分散型SNS「Concrnt」の特徴と使い方を、導入から基本操作まで分かりやすく紹介。",
     url: "https://note.com/akiram_vr/n/nfe5419e4ba2a",
     platform: "note",
-    imageUrl: "/portfolio/images/concrnt.webp"
+    imageUrl: "/images/concrnt.webp"
   },
   {
     title: "【手順解説】Resoniteヘッドレスサーバの建て方！",
     description: "Resoniteのヘッドレスサーバーをセットアップするための完全ガイド。初めての方でも迷わず構築できるよう詳細に解説。",
     url: "https://note.com/akiram_vr/n/n695fca3ac4f8",
     platform: "note",
-    imageUrl: "/portfolio/images/headless.webp"
+    imageUrl: "/images/headless.webp"
   }
 ];
 

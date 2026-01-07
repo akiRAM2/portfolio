@@ -28,7 +28,7 @@ function Hero() {
         className="hero-content"
       >
         <div className="profile-image">
-          <img src="/portfolio/images/akiram_400x400.jpg" alt="akiRAM" />
+          <img src="/images/akiram_400x400.jpg" alt="akiRAM" />
         </div>
         <h1 className="hero-title">
           <span className="text-gradient">{profile.name}</span>
@@ -438,7 +438,7 @@ function App() {
             className="glass-panel events-card"
           >
             <div className="events-image">
-              <img src="/portfolio/images/events.webp" alt="Community Events" />
+              <img src="/images/events.webp" alt="Community Events" />
             </div>
             <p className="description">
               VRコミュニティの活性化を目指し、定期的にイベントを企画・運営しています。イベントビジュアルの制作から当日の運営まで、幅広く担当しています。
