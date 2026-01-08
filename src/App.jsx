@@ -1,4 +1,5 @@
-﻿import React, { useState } from 'react';
+﻿import React, { useState, useEffect } from 'react';
+import ReactGA from "react-ga4";
 import { motion, AnimatePresence } from 'framer-motion';
 import { PiXLogo, PiEnvelope, PiSparkle, PiStack, PiCube, PiX, PiFileText, PiArrowSquareOut, PiUsers } from 'react-icons/pi';
 import { profile, projects, skills, assets, articles, certifications } from './data';
@@ -363,6 +364,24 @@ function Modal({ item, onClose }) {
 
 function App() {
   const [selectedItem, setSelectedItem] = useState(null);
+
+  // Google Analytics Initialization
+  useEffect(() => {
+    ReactGA.initialize("G-9XE0N4NCVH");
+    // Send pageview with a custom path
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
+
+  // Track project/asset details view
+  useEffect(() => {
+    if (selectedItem) {
+      ReactGA.event({
+        category: selectedItem.category || "Content",
+        action: "view_detail",
+        label: selectedItem.title,
+      });
+    }
+  }, [selectedItem]);
 
   return (
     <div className="app-container">
