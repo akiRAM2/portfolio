@@ -795,9 +795,26 @@ button.social-icon {
   background-color: #f1f5f9;
 }
 
-.text-slate-600 {
-  color: #475569;
+.footer-credits {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  opacity: 0.8;
+  margin-top: 0.5rem;
 }
+
+.footer-credits a {
+  color: var(--text-primary);
+  font-weight: 500;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+}
+
+.footer-credits a:hover {
+  color: var(--accent-blue);
+  text-decoration-style: solid;
+}
+
 
 .aspect-video {
   aspect-ratio: 16 / 9;

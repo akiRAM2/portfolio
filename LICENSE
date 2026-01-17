@@ -18,7 +18,7 @@ This project uses the following open-source libraries:
 - Copyright (c) 2018 Framer B.V.
 - https://github.com/framer/motion
 
-### Lucide React
-- License: ISC
-- Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2022 as part of Feather. All other copyright for Lucide are held by Lucide Contributors 2022-present.
-- https://github.com/lucide-icons/lucide
+### React Icons (Phosphor Icons)
+- License: MIT
+- Copyright (c) 2020 Phosphor Icons
+- https://github.com/phosphor-icons/core

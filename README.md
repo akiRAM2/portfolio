@@ -11,7 +11,7 @@
 - React 19.2.0
 - Vite 7.2.4
 - Framer Motion
-- Lucide React
+- React Icons (Phosphor Icons)
 
 ##  ライセンス
 

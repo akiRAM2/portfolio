@@ -612,7 +612,10 @@ function App() {
         </motion.section>
 
         <footer className="footer">
-          <p>© {new Date().getFullYear()} {profile.name}. All rights reserved.</p>
+          <p>© 2025 {profile.name}. All rights reserved.</p>
+          <p className="footer-credits">
+            Built with <a href="https://react.dev" target="_blank" rel="noopener noreferrer">React</a> & <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">Vite</a>
+          </p>
         </footer>
       </div>
 
