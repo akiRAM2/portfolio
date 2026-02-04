@@ -262,10 +262,12 @@ function Modal({ item, onClose }) {
       );
 
       // Standalone URLs (simple detection)
+      // Standalone URLs (simple detection)
+      // Skip if already inside an HTML tag (like the href we just created)
       formattedLine = formattedLine.replace(
-        /(https?:\/\/[^\s]+)/g,
+        /(?<!href=")(?<!src=")(https?:\/\/[^\s<]+)/g,
         (url) => {
-          // Avoid double linking if already linked by above regex (naive check)
+          // Double check we aren't inside an anchor tag we just made
           if (formattedLine.includes(`href="${url}"`)) return url;
           return `<a href="${url}" target="_blank" rel="noopener noreferrer" class="link text-blue-500 hover:underline">${url}</a>`;
         }
@@ -422,10 +424,10 @@ function App() {
         >
           <div className="section-title">
             <PiCube className="title-icon" />
-            <h2>3D Assets & Works</h2>
+            <h2>Works & 3D Assets</h2>
           </div>
           <p className="section-description">
-            VR/ゲーム向け3Dアセットの販売や配布、受託制作を行っています。
+            VR/ゲーム向け3Dアセットの販売や、VRイベントにおける運営・サポート業務実績。
           </p>
           <div className="projects-grid">
             {assets.map((asset, index) => (

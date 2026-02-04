@@ -258,6 +258,66 @@ SE: linki9s7, Zozokasu
 
 export const assets = [
   {
+    title: "Vket Customer & Technical Support",
+    year: "2024 - Ongoing",
+    description: "株式会社HIKKYが主催する「バーチャルマーケット（Vket）」等のカスタマー・テクニカルサポート業務",
+    category: "Support",
+    tags: ["Technical Writing", "Support"],
+    imageUrl: "/images/vkets.mp4",
+    detail: `株式会社HIKKYが主催する世界最大のVRイベント「バーチャルマーケット（Vket）」、および同社開発のメタバースエンジン「Vket Cloud」におけるカスタマー・テクニカルサポート業務。
+
+2024年より計4会期（Vket2024 Summer / Winter, Vket2025 Summer / Winter）にわたり、出展者サポートおよび技術ドキュメント整備を主軸として参画しています。
+自身の出展経験を活かし、同じクリエイターの目線で、きめ細やかなサポートを目指しています。
+
+【担当領域】
+**・テクニカルカスタマーサポート**
+一般ユーザーおよび出展者様からの一般的または技術的な問い合わせに対応しました。
+
+**・Vket出展者向けマニュアル制作**
+出展者向け入稿マニュアルの整備・執筆を担当。
+
+**・Vket Cloud公式ドキュメント執筆**
+メタバース開発エンジン「Vket Cloud」の[公式技術ドキュメント](https://vrhikky.github.io/VketCloudSDK_Documents/latest/)の整備を担当。
+
+**・運用体制の構築・チーム支援**
+ドキュメントの更新・管理フローの設計・導入支援。また、チームメンバーに対する技術的ナレッジの共有やフォローアップも行っています。`
+  },
+  {
+    title: "VketReal 2025 Summer「イマーシブストア」ギミック類制作",
+    year: "2025",
+    description: "ギミック制作・ワールド改修・運営サポート©株式会社HIKKY",
+    category: "Gimmick",
+    tags: ["Gimmick", "Support"],
+    imageUrl: "/images/vendingmachine.mp4",
+    detail: `株式会社HIKKY主催『VketReal 2025 Summer』の展示コンテンツ「イマーシブストア」における、インタラクティブ・ギミックの実装およびテクニカルサポートを担当しました。
+
+【担当領域】
+**・商品ギミック開発**
+展示商品（全4種）のインタラクション設計・実装を担当。「箱から商品を取り出す」「缶を傾けて飲む」といったギミックを構築し、来場者から好評を博しました。
+
+**・ワールド改修・運営サポート**
+既存ワールドの改修や演出調整に加え、キャスト向けオペレーションマニュアルの作成など、バックエンドからの運営サポートも遂行しました。
+
+https://twitter.com/akiram_vr/status/1950040395301158943
+https://twitter.com/SawaeMika/status/1948943433571438852`
+  },
+  {
+    title: "VketReal 2024 Summer 'AVATAR MEETS'",
+    year: "2024",
+    description: "バーチャル×リアル連動コンテンツの3Dアセット制作©WeaverseLab株式会社",
+    category: "Assets",
+    tags: ["3D Assets"],
+    imageUrl: "/images/vketreal2024.webp",
+    detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
+
+【制作アセット】太鼓、杵・臼、土俵など
+日本らしいモチーフを実在感のある質感で表現しつつ、VR空間での映えを意識した揺れもの要素や、インタラクションに応じたEmission発光ギミックを使用できるようにしました。視覚的な楽しさとインタラクティブ性を両立させました。
+
+▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
+
+![VketReal画像](/images/vketreal2024_2.webp)`
+  },
+  {
     title: "BOOTHアセット販売",
     year: "Ongoing",
     description: "VRChat向けアクセサリー・3Dアセット販売",
@@ -281,22 +341,6 @@ Vket2025 Winterに出展している様子
 
 ![BOOTHイベント画像](/images/event3.jpg)
 『サキュバス酒場』に掲示している様子`
-  },
-  {
-    title: "VketReal 2024 Summer 'AVATAR MEETS'",
-    year: "2024",
-    description: "お祭りテーマの小物アセット制作©WeaverseLab株式会社",
-    category: "Assets",
-    tags: ["3D Assets"],
-    imageUrl: "/images/vketreal2024.webp",
-    detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
-
-【制作アセット】太鼓、杵・臼、土俵など
-日本らしいモチーフを実在感のある質感で表現しつつ、VR空間での映えを意識した揺れもの要素や、インタラクションに応じたEmission発光ギミックを使用できるようにしました。視覚的な楽しさとインタラクティブ性を両立させました。
-
-▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
-
-![VketReal画像](/images/vketreal2024_2.webp)`
   },
   {
     title: "コンビニおにぎり",
@@ -327,11 +371,11 @@ doron`
   {
     title: "すごトーク!",
     year: "2023",
-    description: "NeosVR(現:Resonite)上の話題すごろくワールド",
+    description: "NeosVR(現:Resonite)上の話題すごろくワールド制作。 ",
     category: "World",
     tags: ["3D Assets", "Logo Design"],
     imageUrl: "https://www.youtube.com/embed/H3fBKUaqlHU?rel=0",
-    detail: `NeosVR(現:Resonite)上に作られた話題すごろくワールド。
+    detail: `NeosVR(現:Resonite)上に作られた話題すごろくワールド制作。
 
 【担当領域】背景アセット、ロゴデザイン、紹介PV制作
 
