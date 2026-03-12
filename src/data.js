@@ -23,6 +23,32 @@ export const skills = [
 
 export const projects = [
   {
+    title: "Virtual Market Customer & Technical Support",
+    year: "2024 - Ongoing",
+    platform: "Various",
+    description: "株式会社HIKKYが主催する「バーチャルマーケット（Vket）」等でのカスタマー・テクニカルサポート",
+    category: "Documentation ＆ Support",
+    tags: ["Technical Writing", "Support"],
+    imageUrl: "/images/vkets.mp4",
+    detail: `株式会社HIKKYが主催する世界最大のVRイベント「バーチャルマーケット（Vket）」、および同社開発のメタバースエンジン「Vket Cloud」におけるカスタマー・テクニカルサポート業務。
+
+2024年より計4会期（Vket2024 Summer / Winter, Vket2025 Summer / Winter）にわたり、出展者サポートおよび技術ドキュメント整備を主軸として参画しています。
+自身の出展経験を活かし、同じクリエイターの目線で、きめ細やかなサポートを目指しています。
+
+【担当領域】
+**・テクニカルカスタマーサポート**
+一般ユーザーおよび出展者様からの一般的または技術的な問い合わせに対応しました。
+
+**・Vket出展者向けマニュアル制作**
+出展者向け入稿マニュアルの整備・執筆を担当。
+
+**・Vket Cloud公式ドキュメント執筆**
+メタバース開発エンジン「Vket Cloud」の[公式技術ドキュメント](https://vrhikky.github.io/VketCloudSDK_Documents/latest/)の整備を担当。
+
+**・運用体制の構築・チーム支援**
+ドキュメントの更新・管理フローの設計・導入支援。また、チームメンバーに対する技術的ナレッジの共有やフォローアップも行っています。`
+  },
+  {
     title: "SHOCK STICK",
     year: "2025",
     platform: "Resonite (VR)",
@@ -56,39 +82,6 @@ Credits:
 `
   },
   {
-    title: "いろいろおばけ",
-    year: "2025",
-    platform: "Resonite (VR)",
-    role: "Game Design, 3D Assets",
-    description: "VIVE LBEシステム向け協力型VRアクションゲーム。ビジュアルデザイン、PV制作を担当。VIVExResonite LBEコンペティション最優秀賞。",
-    category: "Game",
-    tags: ["Designer"],
-    imageUrl: "https://www.youtube.com/embed/-ahH8RTy4pg?rel=0",
-    thumbnailUrl: "/images/iroiro.mp4",
-    detail: `WeaverseLab株式会社様主催の、Resoniteを使用したLBEコンテンツのコンペティション応募作品。
-
-【担当領域】ゲームシステムのアイデア出し、3Dアセット制作、PV制作
-
-友人3名で約1ヶ月程度の期間で制作しました。
-リーダーから複数人で協力して遊ぶマルチプレイVR体験を重視したいという意見があったため、光の三原色を組み合わせることでプレイヤー同士のコミュニケーションを促進するゲームメカニクスを提案しました。
-また、世界観に合わせた3Dマップを制作しました。
-
-コンペではゲームメカニクスとビジュアルの品質が評価され、【最優秀賞】を受賞しました🏆
-
-▶ 動画: https://www.youtube.com/watch?v=-ahH8RTy4pg
-▶ 詳細: https://x.com/akiram_vr/status/1974962804403708332
-
-
-![いろいろおばけ画像](/images/iroiro2.jpg)
-![いろいろおばけ画像](/images/iroiro3.jpg)
-
-Credits:
-sisizanohito - Leader
-linki9s7 - Programmer
-akiRAM - Designer
-`
-  },
-  {
     title: "俺が盾になるよ",
     year: "2025",
     platform: "Resonite (VR)",
@@ -113,96 +106,6 @@ akiRAM - Direction, 3D Modeler, Voice
 MotoMaid - Programmer, Level Designer
 OGURI - 3D Modeler, Voice
 `
-  },
-  {
-    title: "下へ参ります。",
-    year: "2024",
-    platform: "Resonite (VR)",
-    role: "3D/2D Design",
-    description: "VRマルチプレイヤー間違い探しゲーム。ビジュアルデザイン、PV制作を担当。MMC24 “Game”部門 優勝。",
-    category: "Game",
-    tags: ["Designer"],
-    imageUrl: "https://www.youtube.com/embed/ycWLUtaFI3w?rel=0",
-    thumbnailUrl: "/images/goingdown.mp4",
-    detail: `1ヵ月の期間でResonite上に制作された、国際コンペティション「MMC24」向けVRマルチプレイ対応の間違い探しゲーム。
-
-当時の新興ジャンル「探索型間違い探し」にいち早く着目し、VR空間とマルチプレイ要素を統合した作品として差別化を図りました。
-
-【担当領域】3D・2Dアセット制作、PV制作
-限られた開発期間の中でホラーテイストに合わせたリアリスティックなアセットを制作し、またPV制作も行いました。
-
-新興ジャンルをいち早く取り入れたこと、また完成度の高いビジュアル表現が評価され、MMCコンペでは毎年激戦区となる部門の"Game"で優勝を獲得しました🏆
-
-https://x.com/akiram_vr/status/1772774775099945280
-![下へ参ります画像](/images/goingdown.webp)
-![下へ参ります画像](/images/goingdown2.webp)
-![下へ参ります画像](/images/goingdown3.webp)
-![下へ参ります画像](/images/goingdown4.webp)
-![下へ参ります画像](/images/goingdown5.webp)
-
-Credits:
-sisizanohito - Leader
-linki9s7 - Programmer
-akiRAM - Visual Artist
-`
-  },
-  {
-    title: "Train Light",
-    year: "2025",
-    platform: "Unreal Engine 5",
-    role: "All (Team of 2)",
-    description: "リアルなライティング表現にこだわったショート動画。UE5ぷちコン参加作品。",
-    category: "Video",
-    tags: ["Co-Director"],
-    imageUrl: "https://www.youtube.com/embed/JxSERL5VrX4?rel=0",
-    thumbnailUrl: "/images/train_light.mp4",
-    detail: `UE5の次世代ライティング技術"Lumen"を活用した、1分間のリアルタイムレンダリング映像作品。1週間の制作期間で完成させ、「UE5ぷちコン 映像編」に出品しました。
-
-【担当領域】ビジュアル全般、既存モデルのUE最適化、背景のキットバッシュ、Blueprint実装、ライティング設計、Niagaraパーティクル実装
-コンテ・シーン設計：soncho氏 (https://x.com/soncho_shiba)
-
-シングルカット・ドキュメンタリ風の構成で、Lumenの特徴である美しい反射表現とダイナミックライティングによるフォトリアルな映像美を追求。
-
-本作品は公式配信にてピックアップ作品として紹介され、技術力と映像表現力を評価いただきました。
-
-▶ 視聴リンク: https://www.youtube.com/embed/JxSERL5VrX4?rel=0
-
-![Train Light画像](/images/trainlight1.webp)
-![Train Light画像](/images/TrainLight2.webp)
-![Train Light画像](/images/TrainLight3.webp)
-![Train Light画像](/images/TrainLight4.webp)`
-  },
-  {
-    title: "思い出降る空",
-    year: "2023",
-    platform: "Unity",
-    role: "Direction, Design",
-    description: "縦スクロールジャンプアクションゲーム。Unity1週間ゲームジャム参加作品。全体の統括、2Dデザインなどを担当。",
-    category: "Game",
-    tags: ["Director"],
-    imageUrl: "/images/omoide_furu_sora.png",
-    thumbnailUrl: "/images/omoide.mp4",
-    detail: `ブラウザゲーム共有プラットフォーム「Unityroom」で開催された「Unity1週間ゲームジャム」参加作品。ワンボタン操作の縦スクロール型2Dアクションゲームとして、1プレイ2-3分で楽しめる設計を実現しました。
-
-【担当領域】ディレクション、UIデザイン、背景グラフィック、ロゴデザイン
-
-限られた開発期間ながらもアセットは全てフルスクラッチで制作を行い、グラフィック・サウンド・BGMの統一感と世界観の一貫性にこだわり、小粒ながら完成度の高い作品を目指しました。
-友人10名のチームの全体統括を行いました。
-
-▶ プレイはこちら: https://unityroom.com/games/omoide-huru-sora
-https://x.com/linki_biotro9s7/status/1673300034841108481
-![思い出降る空 ルール説明](/images/omoide_rules.png)
-![思い出降る空 クレジット](/images/omoide_credit.png)
-    
-ディレクター: おかぜ, りんき, akiRAM
-プランナー: N-JELLY
-プログラマー: おかぜ, linki9s7, Taipui, Hennnatori
-グラフィッカー: VEX, Hennnatori
-エンディングCG: Chameleon02
-BGM: Zozokasu
-SE: linki9s7, Zozokasu
-お茶出し係: MotoMaid`
-
   },
   {
     title: "Steller Memories",
@@ -257,38 +160,10 @@ https://x.com/akiram_vr/status/1971100996966445198
 `
 
   },
-
-];
-
-export const assets = [
-  {
-    title: "Vket Customer & Technical Support",
-    year: "2024 - Ongoing",
-    description: "株式会社HIKKYが主催する「バーチャルマーケット（Vket）」等のカスタマー・テクニカルサポート業務",
-    category: "Support",
-    tags: ["Technical Writing", "Support"],
-    imageUrl: "/images/vkets.mp4",
-    detail: `株式会社HIKKYが主催する世界最大のVRイベント「バーチャルマーケット（Vket）」、および同社開発のメタバースエンジン「Vket Cloud」におけるカスタマー・テクニカルサポート業務。
-
-2024年より計4会期（Vket2024 Summer / Winter, Vket2025 Summer / Winter）にわたり、出展者サポートおよび技術ドキュメント整備を主軸として参画しています。
-自身の出展経験を活かし、同じクリエイターの目線で、きめ細やかなサポートを目指しています。
-
-【担当領域】
-**・テクニカルカスタマーサポート**
-一般ユーザーおよび出展者様からの一般的または技術的な問い合わせに対応しました。
-
-**・Vket出展者向けマニュアル制作**
-出展者向け入稿マニュアルの整備・執筆を担当。
-
-**・Vket Cloud公式ドキュメント執筆**
-メタバース開発エンジン「Vket Cloud」の[公式技術ドキュメント](https://vrhikky.github.io/VketCloudSDK_Documents/latest/)の整備を担当。
-
-**・運用体制の構築・チーム支援**
-ドキュメントの更新・管理フローの設計・導入支援。また、チームメンバーに対する技術的ナレッジの共有やフォローアップも行っています。`
-  },
   {
     title: "VketReal 2025 Summer「イマーシブストア」ギミック類制作",
     year: "2025",
+    platform: "Resonite",
     description: "ギミック制作・ワールド改修・運営サポート©株式会社HIKKY",
     category: "Gimmick",
     tags: ["Gimmick", "Support"],
@@ -306,8 +181,135 @@ https://twitter.com/akiram_vr/status/1950040395301158943
 https://twitter.com/SawaeMika/status/1948943433571438852`
   },
   {
+    title: "Train Light",
+    year: "2025",
+    platform: "Unreal Engine 5",
+    role: "All (Team of 2)",
+    description: "リアルなライティング表現にこだわったショート動画。UE5ぷちコン参加作品。",
+    category: "Short Film",
+    tags: ["Co-Director"],
+    imageUrl: "https://www.youtube.com/embed/JxSERL5VrX4?rel=0",
+    thumbnailUrl: "/images/train_light.mp4",
+    detail: `UE5の次世代ライティング技術"Lumen"を活用した、1分間のリアルタイムレンダリング映像作品。1週間の制作期間で完成させ、「UE5ぷちコン 映像編」に出品しました。
+
+【担当領域】ビジュアル全般、既存モデルのUE最適化、背景のキットバッシュ、Blueprint実装、ライティング設計、Niagaraパーティクル実装
+コンテ・シーン設計：soncho氏 (https://x.com/soncho_shiba)
+
+シングルカット・ドキュメンタリ風の構成で、Lumenの特徴である美しい反射表現とダイナミックライティングによるフォトリアルな映像美を追求。
+
+本作品は公式配信にてピックアップ作品として紹介され、技術力と映像表現力を評価いただきました。
+
+▶ 視聴リンク: https://www.youtube.com/embed/JxSERL5VrX4?rel=0
+
+![Train Light画像](/images/trainlight1.webp)
+![Train Light画像](/images/TrainLight2.webp)
+![Train Light画像](/images/TrainLight3.webp)
+![Train Light画像](/images/TrainLight4.webp)`
+  },
+  {
+    title: "思い出降る空",
+    year: "2023",
+    platform: "Unity",
+    role: "Direction, Design",
+    description: "縦スクロールジャンプアクションゲーム。Unity1週間ゲームジャム参加作品。全体の統括、2Dデザインなどを担当。",
+    category: "Game",
+    tags: ["Director"],
+    imageUrl: "/images/omoide_furu_sora.png",
+    thumbnailUrl: "/images/omoide.mp4",
+    detail: `ブラウザゲーム共有プラットフォーム「Unityroom」で開催された「Unity1週間ゲームジャム」参加作品。ワンボタン操作の縦スクロール型2Dアクションゲームとして、1プレイ2-3分で楽しめる設計を実現しました。
+
+【担当領域】ディレクション、UIデザイン、背景グラフィック、ロゴデザイン
+
+限られた開発期間ながらもアセットは全てフルスクラッチで制作を行い、グラフィック・サウンド・BGMの統一感と世界観の一貫性にこだわり、小粒ながら完成度の高い作品を目指しました。
+友人10名のチームの全体統括を行いました。
+
+▶ プレイはこちら: https://unityroom.com/games/omoide-huru-sora
+https://x.com/linki_biotro9s7/status/1673300034841108481
+![思い出降る空 ルール説明](/images/omoide_rules.png)
+![思い出降る空 クレジット](/images/omoide_credit.png)
+    
+ディレクター: おかぜ, りんき, akiRAM
+プランナー: N-JELLY
+プログラマー: おかぜ, linki9s7, Taipui, Hennnatori
+グラフィッカー: VEX, Hennnatori
+エンディングCG: Chameleon02
+BGM: Zozokasu
+SE: linki9s7, Zozokasu
+お茶出し係: MotoMaid`
+
+  },
+];
+
+export const assets = [
+  {
+    title: "いろいろおばけ",
+    year: "2025",
+    platform: "Resonite (VR)",
+    role: "Game Design, 3D Assets",
+    description: "VIVE LBEシステム向け協力型VRアクションゲーム。ビジュアルデザイン、PV制作を担当。VIVExResonite LBEコンペティション最優秀賞。",
+    category: "Game",
+    tags: ["Designer"],
+    imageUrl: "https://www.youtube.com/embed/-ahH8RTy4pg?rel=0",
+    thumbnailUrl: "/images/iroiro.mp4",
+    detail: `WeaverseLab株式会社様主催の、Resoniteを使用したLBEコンテンツのコンペティション応募作品。
+
+【担当領域】ゲームシステムのアイデア出し、3Dアセット制作、PV制作
+
+友人3名で約1ヶ月程度の期間で制作しました。
+リーダーから複数人で協力して遊ぶマルチプレイVR体験を重視したいという意見があったため、光の三原色を組み合わせることでプレイヤー同士のコミュニケーションを促進するゲームメカニクスを提案しました。
+また、世界観に合わせた3Dマップを制作しました。
+
+コンペではゲームメカニクスとビジュアルの品質が評価され、【最優秀賞】を受賞しました🏆
+
+▶ 動画: https://www.youtube.com/watch?v=-ahH8RTy4pg
+▶ 詳細: https://x.com/akiram_vr/status/1974962804403708332
+
+
+![いろいろおばけ画像](/images/iroiro2.jpg)
+![いろいろおばけ画像](/images/iroiro3.jpg)
+
+Credits:
+sisizanohito - Leader
+linki9s7 - Programmer
+akiRAM - Designer
+`
+  },
+  {
+    title: "下へ参ります。",
+    year: "2024",
+    platform: "Resonite (VR)",
+    role: "3D/2D Design",
+    description: "VRマルチプレイヤー間違い探しゲーム。ビジュアルデザイン、PV制作を担当。MMC24 “Game”部門 優勝。",
+    category: "Game",
+    tags: ["Designer"],
+    imageUrl: "https://www.youtube.com/embed/ycWLUtaFI3w?rel=0",
+    thumbnailUrl: "/images/goingdown.mp4",
+    detail: `1ヵ月の期間でResonite上に制作された、国際コンペティション「MMC24」向けVRマルチプレイ対応の間違い探しゲーム。
+
+当時の新興ジャンル「探索型間違い探し」にいち早く着目し、VR空間とマルチプレイ要素を統合した作品として差別化を図りました。
+
+【担当領域】3D・2Dアセット制作、PV制作
+限られた開発期間の中でホラーテイストに合わせたリアリスティックなアセットを制作し、またPV制作も行いました。
+
+新興ジャンルをいち早く取り入れたこと、また完成度の高いビジュアル表現が評価され、MMCコンペでは毎年激戦区となる部門の"Game"で優勝を獲得しました🏆
+
+https://x.com/akiram_vr/status/1772774775099945280
+![下へ参ります画像](/images/goingdown.webp)
+![下へ参ります画像](/images/goingdown2.webp)
+![下へ参ります画像](/images/goingdown3.webp)
+![下へ参ります画像](/images/goingdown4.webp)
+![下へ参ります画像](/images/goingdown5.webp)
+
+Credits:
+sisizanohito - Leader
+linki9s7 - Programmer
+akiRAM - Visual Artist
+`
+  },
+  {
     title: "VketReal 2024 Summer 'AVATAR MEETS'",
     year: "2024",
+    platform: "Resonite",
     description: "バーチャル×リアル連動コンテンツの3Dアセット制作©WeaverseLab株式会社",
     category: "Assets",
     tags: ["3D Assets"],
@@ -324,6 +326,7 @@ https://twitter.com/SawaeMika/status/1948943433571438852`
   {
     title: "BOOTHアセット販売",
     year: "Ongoing",
+    platform: "VRChat/Resonite",
     description: "VRChat向けアクセサリー・3Dアセット販売",
     category: "Assets",
     tags: ["3D Assets", "Sales"],
@@ -345,7 +348,7 @@ Vket2025 Winterに出展している様子
 
 ![BOOTHイベント画像](/images/event3.jpg)
 『サキュバス酒場』に掲示している様子`
-  },
+  }
 ];
 
 export const communityEvents = [
