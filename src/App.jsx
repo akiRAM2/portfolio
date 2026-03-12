@@ -429,7 +429,7 @@ function App() {
             <h2>Works & Selected Projects</h2>
           </div>
           <p className="section-description">
-            企画・ディレクション環境構築から技術サポート業務まで、多岐にわたる活動の中から主要な実績をご紹介します。
+            コンテンツの企画・ディレクションから技術サポート業務まで、多岐にわたる活動の中から主要な実績をご紹介します。
           </p>
           <div className="projects-grid">
             {projects.map((project, index) => (
