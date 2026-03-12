@@ -176,6 +176,7 @@ function AssetCard({ asset, onClick }) {
           <span className="year">{asset.year}</span>
         </div>
         <h3 className="card-title">{asset.title}</h3>
+        {asset.platform && <p className="platform">{asset.platform}</p>}
         <p className="description">{asset.description}</p>
         {asset.tags && (
           <div className="tags">
@@ -425,10 +426,10 @@ function App() {
         >
           <div className="section-title">
             <PiSparkle className="title-icon" />
-            <h2>Selected Projects</h2>
+            <h2>Works & Selected Projects</h2>
           </div>
           <p className="section-description">
-            企画・制作からコミュニティ運営まで、多岐にわたる活動の中から一部を抜粋してご紹介します。
+            企画・ディレクション環境構築から技術サポート業務まで、多岐にわたる活動の中から主要な実績をご紹介します。
           </p>
           <div className="projects-grid">
             {projects.map((project, index) => (
@@ -450,10 +451,10 @@ function App() {
         >
           <div className="section-title">
             <PiCube className="title-icon" />
-            <h2>Works & 3D Assets</h2>
+            <h2>3D Assets</h2>
           </div>
           <p className="section-description">
-            VR/ゲーム向け3Dアセットの販売や、VRイベントにおける運営・サポート業務実績。
+            ゲームやVR空間向けの3Dアセット制作や、販売アイテムに関する情報です。
           </p>
           <div className="projects-grid">
             {assets.map((asset, index) => (
@@ -519,7 +520,7 @@ function App() {
               <img src="/images/events.webp" alt="Events & Community" />
             </div>
             <p className="description">
-              VRコミュニティの活性化を目指し、定期的にイベントを企画・運営しています。イベントビジュアルの制作から当日の運営まで、幅広く担当しています。
+              VR・メタバース領域を中心に、イベント企画・運営から、3D/2Dデザイン、ゲームやワールド制作のディレクション、映像制作、そして技術記事の執筆に至るまで、多岐にわたる活動を展開しています。すべての活動履歴はnoteにて公開しています。
             </p>
             <a
               href="https://note.com/akiram_vr/n/n3842d4981d00"

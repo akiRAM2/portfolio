@@ -139,28 +139,6 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
 `
   },
   {
-    title: "TGS2025 bHapticsブース 説明員",
-    year: "2025",
-    platform: "Real Event",
-    role: "Device Demonstrator",
-    description: "東京ゲームショウ2025 bHapticsブースにて、触覚デバイスの体験・説明スタッフとして参加。",
-    category: "Event Staff",
-    tags: ["Event Staff"],
-    imageUrl: "/images/bhaptics.jpg",
-    detail: `2025年9月25日～9月28日に開催された『東京ゲームショウ2025（TGS2025）』にて4日間、触覚フィードバックデバイスメーカー「bHaptics」のブーススタッフとして参加。
-
-【担当】
-来場者への触覚デバイスの体験案内・製品説明を担当。デバイスの特性や活用シーンをわかりやすく解説し、来場者の体験をサポートしました。
-
-▶ bHaptics公式サイト: https://www.bhaptics.com/ja/
-
-https://x.com/akiram_vr/status/1971885226076012898
-
-https://x.com/akiram_vr/status/1971100996966445198
-`
-
-  },
-  {
     title: "VketReal 2025 Summer「イマーシブストア」ギミック類制作",
     year: "2025",
     platform: "Resonite",
@@ -238,9 +216,74 @@ SE: linki9s7, Zozokasu
 お茶出し係: MotoMaid`
 
   },
+  {
+    title: "TGS2025 bHapticsブース 説明員",
+    year: "2025",
+    platform: "Real Event",
+    role: "Device Demonstrator",
+    description: "東京ゲームショウ2025 bHapticsブースにて、触覚デバイスの体験・説明スタッフとして参加。",
+    category: "Event Staff",
+    tags: ["Event Staff"],
+    imageUrl: "/images/bhaptics.jpg",
+    detail: `2025年9月25日～9月28日に開催された『東京ゲームショウ2025（TGS2025）』にて4日間、触覚フィードバックデバイスメーカー「bHaptics」のブーススタッフとして参加。
+
+【担当】
+来場者への触覚デバイスの体験案内・製品説明を担当。デバイスの特性や活用シーンをわかりやすく解説し、来場者の体験をサポートしました。
+
+▶ bHaptics公式サイト: https://www.bhaptics.com/ja/
+
+https://x.com/akiram_vr/status/1971885226076012898
+
+https://x.com/akiram_vr/status/1971100996966445198
+`
+
+  },
 ];
 
 export const assets = [
+  {
+    title: "VketReal 2024 Summer 'AVATAR MEETS'",
+    year: "2024",
+    platform: "Resonite",
+    description: "バーチャル×リアル連動コンテンツの3Dアセット制作©WeaverseLab株式会社",
+    category: "Assets",
+    tags: ["3D Assets"],
+    imageUrl: "/images/vketreal2024.webp",
+    detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
+
+【制作アセット】太鼓、杵・臼、土俵など
+日本らしいモチーフを実在感のある質感で表現しつつ、VR空間での映えを意識した揺れもの要素や、インタラクションに応じたEmission発光ギミックを使用できるようにしました。視覚的な楽しさとインタラクティブ性を両立させました。
+
+▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
+
+![VketReal画像](/images/vketreal2024_2.webp)`
+  },
+  {
+    title: "BOOTHアセット販売",
+    year: "Ongoing",
+    platform: "VRChat/Resonite",
+    description: "VRChat向けアクセサリー・3Dアセット販売",
+    category: "Assets",
+    tags: ["3D Assets", "Sales"],
+    imageUrl: "/images/booths.jpg",
+    detail: `主にVRChat向けアクセサリー・背景3Dアセットを「BOOTH」にて販売。「端子しっぽ」などニッチな需要に応えるアクセサリー商品を展開しています。
+
+バーチャル空間上の商品展示会「バーチャルマーケット」「メタフェス」「X-NEOKET」等にも出展。
+
+【ショップ情報】
+▶ 個人ショップ「akiRAM」: https://akiram.booth.pm/
+▶ 共同ショップ「SHIBRAMS」(soncho氏と共同運営): https://shibrams.booth.pm/
+
+
+![BOOTHイベント画像](/images/event1.jpg)
+Vket2024 Winterに出展している様子
+
+![BOOTHイベント画像](/images/event2.jpg)
+Vket2025 Winterに出展している様子
+
+![BOOTHイベント画像](/images/event3.jpg)
+『サキュバス酒場』に掲示している様子`
+  },
   {
     title: "いろいろおばけ",
     year: "2025",
@@ -305,49 +348,6 @@ sisizanohito - Leader
 linki9s7 - Programmer
 akiRAM - Visual Artist
 `
-  },
-  {
-    title: "VketReal 2024 Summer 'AVATAR MEETS'",
-    year: "2024",
-    platform: "Resonite",
-    description: "バーチャル×リアル連動コンテンツの3Dアセット制作©WeaverseLab株式会社",
-    category: "Assets",
-    tags: ["3D Assets"],
-    imageUrl: "/images/vketreal2024.webp",
-    detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
-
-【制作アセット】太鼓、杵・臼、土俵など
-日本らしいモチーフを実在感のある質感で表現しつつ、VR空間での映えを意識した揺れもの要素や、インタラクションに応じたEmission発光ギミックを使用できるようにしました。視覚的な楽しさとインタラクティブ性を両立させました。
-
-▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
-
-![VketReal画像](/images/vketreal2024_2.webp)`
-  },
-  {
-    title: "BOOTHアセット販売",
-    year: "Ongoing",
-    platform: "VRChat/Resonite",
-    description: "VRChat向けアクセサリー・3Dアセット販売",
-    category: "Assets",
-    tags: ["3D Assets", "Sales"],
-    imageUrl: "/images/booths.jpg",
-    detail: `主にVRChat向けアクセサリー・背景3Dアセットを「BOOTH」にて販売。「端子しっぽ」などニッチな需要に応えるアクセサリー商品を展開しています。
-
-バーチャル空間上の商品展示会「バーチャルマーケット」「メタフェス」「X-NEOKET」等にも出展。
-
-【ショップ情報】
-▶ 個人ショップ「akiRAM」: https://akiram.booth.pm/
-▶ 共同ショップ「SHIBRAMS」(soncho氏と共同運営): https://shibrams.booth.pm/
-
-
-![BOOTHイベント画像](/images/event1.jpg)
-Vket2024 Winterに出展している様子
-
-![BOOTHイベント画像](/images/event2.jpg)
-Vket2025 Winterに出展している様子
-
-![BOOTHイベント画像](/images/event3.jpg)
-『サキュバス酒場』に掲示している様子`
   }
 ];
 
