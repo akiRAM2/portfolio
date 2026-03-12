@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import ReactGA from "react-ga4";
 import { motion, AnimatePresence } from 'framer-motion';
 import { PiXLogo, PiEnvelope, PiSparkle, PiStack, PiCube, PiX, PiFileText, PiArrowSquareOut, PiUsers } from 'react-icons/pi';
@@ -18,6 +18,42 @@ const staggerContainer = {
     }
   }
 };
+
+function TweetEmbed({ id }) {
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+    let cancelled = false;
+
+    const create = (twttr) => {
+      if (cancelled) return;
+      container.innerHTML = '';
+      twttr.widgets.createTweet(id, container, { dnt: true, theme: 'light' }).then(() => {
+        if (cancelled) container.innerHTML = '';
+      });
+    };
+
+    if (window.twttr?.ready) {
+      window.twttr.ready(create);
+    } else {
+      const script = document.querySelector('script[src*="platform.twitter.com/widgets.js"]');
+      if (script) {
+        script.addEventListener('load', () => {
+          if (window.twttr?.ready) window.twttr.ready(create);
+        }, { once: true });
+      }
+    }
+
+    return () => {
+      cancelled = true;
+      container.innerHTML = '';
+    };
+  }, [id]);
+
+  return <div ref={containerRef} />;
+}
 
 function Hero() {
   return (
@@ -216,19 +252,9 @@ function Modal({ item, onClose }) {
       const xMatch = line.match(/https?:\/\/(?:twitter\.com|x\.com)\/\w+\/status\/(\d+)/);
 
       if (xMatch) {
-        // Return styled button for X link
         return (
-          <div key={i} className="mb-4">
-            <a
-              href={xMatch[0]}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="x-link-button"
-            >
-              <PiXLogo size={20} />
-              <span>X（Twitter）で見る</span>
-              <PiArrowSquareOut size={16} />
-            </a>
+          <div key={i} className="tweet-embed-wrapper">
+            <TweetEmbed id={xMatch[1]} />
           </div>
         );
       }

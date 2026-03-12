@@ -1,0 +1,207 @@
+diff --git a/index.html b/index.html
+index 51348cd..af4fdd2 100644
+--- a/index.html
++++ b/index.html
+@@ -27,6 +27,7 @@
+ <body>
+   <div id="root"></div>
+   <script type="module" src="/src/main.jsx"></script>
++  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+ </body>
+ 
+ </html>
+\ No newline at end of file
+diff --git a/src/App.jsx b/src/App.jsx
+index e87a538..ca9b6ef 100644
+--- a/src/App.jsx
++++ b/src/App.jsx
+@@ -1,4 +1,4 @@
+-﻿import React, { useState, useEffect } from 'react';
++﻿import React, { useState, useEffect, useRef } from 'react';
+ import ReactGA from "react-ga4";
+ import { motion, AnimatePresence } from 'framer-motion';
+ import { PiXLogo, PiEnvelope, PiSparkle, PiStack, PiCube, PiX, PiFileText, PiArrowSquareOut, PiUsers } from 'react-icons/pi';
+@@ -19,6 +19,42 @@ const staggerContainer = {
+   }
+ };
+ 
++function TweetEmbed({ id }) {
++  const containerRef = useRef(null);
++
++  useEffect(() => {
++    const container = containerRef.current;
++    if (!container) return;
++    let cancelled = false;
++
++    const create = (twttr) => {
++      if (cancelled) return;
++      container.innerHTML = '';
++      twttr.widgets.createTweet(id, container, { dnt: true, theme: 'light' }).then(() => {
++        if (cancelled) container.innerHTML = '';
++      });
++    };
++
++    if (window.twttr?.ready) {
++      window.twttr.ready(create);
++    } else {
++      const script = document.querySelector('script[src*="platform.twitter.com/widgets.js"]');
++      if (script) {
++        script.addEventListener('load', () => {
++          if (window.twttr?.ready) window.twttr.ready(create);
++        }, { once: true });
++      }
++    }
++
++    return () => {
++      cancelled = true;
++      container.innerHTML = '';
++    };
++  }, [id]);
++
++  return <div ref={containerRef} />;
++}
++
+ function Hero() {
+   return (
+     <section className="hero-section">
+@@ -216,19 +252,9 @@ function Modal({ item, onClose }) {
+       const xMatch = line.match(/https?:\/\/(?:twitter\.com|x\.com)\/\w+\/status\/(\d+)/);
+ 
+       if (xMatch) {
+-        // Return styled button for X link
+         return (
+-          <div key={i} className="mb-4">
+-            <a
+-              href={xMatch[0]}
+-              target="_blank"
+-              rel="noopener noreferrer"
+-              className="x-link-button"
+-            >
+-              <PiXLogo size={20} />
+-              <span>X（Twitter）で見る</span>
+-              <PiArrowSquareOut size={16} />
+-            </a>
++          <div key={i} className="tweet-embed-wrapper">
++            <TweetEmbed id={xMatch[1]} />
+           </div>
+         );
+       }
+diff --git a/src/data.js b/src/data.js
+index 8320a58..211c7ff 100644
+--- a/src/data.js
++++ b/src/data.js
+@@ -41,7 +41,7 @@ export const projects = [
+ プログラミング以外の全工程を統括しました。
+ 
+ 直感的なUI設計、演出の完成度、ポータビリティの革新性が評価され、"Other-Misc"部門で優勝を獲得しました。
+-
++https://x.com/akiram_vr/status/1903596321254347166
+ ![SHOCK STICK画像](/images/shockstick1.webp)
+ ![SHOCK STICK画像](/images/shockstick2.webp)
+ ![SHOCK STICK画像](/images/shockstick3.webp)
+@@ -133,6 +133,7 @@ OGURI - 3D Modeler, Voice
+ 
+ 新興ジャンルをいち早く取り入れたこと、また完成度の高いビジュアル表現が評価され、MMCコンペでは毎年激戦区となる部門の"Game"で優勝を獲得しました🏆
+ 
++https://x.com/akiram_vr/status/1772774775099945280
+ ![下へ参ります画像](/images/goingdown.webp)
+ ![下へ参ります画像](/images/goingdown2.webp)
+ ![下へ参ります画像](/images/goingdown3.webp)
+@@ -142,7 +143,8 @@ OGURI - 3D Modeler, Voice
+ Credits:
+ sisizanohito - Leader
+ linki9s7 - Programmer
+-akiRAM - Visual Artist`
++akiRAM - Visual Artist
++`
+   },
+   {
+     title: "Train Light",
+@@ -188,6 +190,9 @@ akiRAM - Visual Artist`
+ 友人10名のチームの全体統括を行いました。
+ 
+ ▶ プレイはこちら: https://unityroom.com/games/omoide-huru-sora
++https://x.com/linki_biotro9s7/status/1673300034841108481
++![思い出降る空 ルール説明](/images/omoide_rules.png)
++![思い出降る空 クレジット](/images/omoide_credit.png)
+     
+ ディレクター: おかぜ, りんき, akiRAM
+ プランナー: N-JELLY
+@@ -196,10 +201,8 @@ akiRAM - Visual Artist`
+ エンディングCG: Chameleon02
+ BGM: Zozokasu
+ SE: linki9s7, Zozokasu
+-お茶出し係: MotoMaid
++お茶出し係: MotoMaid`
+ 
+-![思い出降る空 ルール説明](/images/omoide_rules.png)
+-![思い出降る空 クレジット](/images/omoide_credit.png)`
+   },
+   {
+     title: "Steller Memories",
+@@ -215,8 +218,8 @@ SE: linki9s7, Zozokasu
+     Resoniteというプラットフォームの住民を登録・記録し、コミュニティの歴史を後世に残すことをコンセプトとしたイベントワールドです。
+ 
+ 1年目は1週間の稼働期間で279名の住民が登録、2年目は1週間強の稼働期間で303名の住民が登録
+-【担当領域】企画、ワールド制作、イベント運営
+-【開発】登録システム：orange氏 (https://x.com/orange_3134)
++【担当】企画、ワールド制作、イベント運営
++企画、登録システム、SE制作：[orange](https://x.com/orange_3134)
+ 
+ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来訪者が特別な体験をできる空間設計を目指しました。
+ 
+@@ -241,12 +244,18 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
+     category: "Event Staff",
+     tags: ["Event Staff"],
+     imageUrl: "/images/bhaptics.jpg",
+-    detail: `東京ゲームショウ2025（TGS2025）にて4日間、触覚フィードバックデバイスメーカー「bHaptics」のブーススタッフとして参加。
++    detail: `2025年9月25日～9月28日に開催された『東京ゲームショウ2025（TGS2025）』にて4日間、触覚フィードバックデバイスメーカー「bHaptics」のブーススタッフとして参加。
+ 
+ 【担当】
+ 来場者への触覚デバイスの体験案内・製品説明を担当。デバイスの特性や活用シーンをわかりやすく解説し、来場者の体験をサポートしました。
+ 
+-▶ bHaptics公式サイト: https://www.bhaptics.com/ja/`
++▶ bHaptics公式サイト: https://www.bhaptics.com/ja/
++
++https://x.com/akiram_vr/status/1971885226076012898
++
++https://x.com/akiram_vr/status/1971100996966445198
++`
++
+   },
+ 
+ ];
+@@ -345,7 +354,7 @@ export const communityEvents = [
+     year: "2025",
+     platform: "Real Event",
+     role: "Device Demonstrator",
+-    description: "超メタフェスにて、Diver-Xブースのデバイス体験・説明スタッフとして参加。",
++    description: "2025年5月10日に開催されたVRユーザー向けイベント『超メタフェス』にて、Diver-Xブースのデバイス体験・説明スタッフとして参加。",
+     category: "Event Staff",
+     tags: ["Event Staff"],
+     imageUrl: "/images/chometafes.jpg",
+diff --git a/src/index.css b/src/index.css
+index 7dc2b49..f9e0cfb 100644
+--- a/src/index.css
++++ b/src/index.css
+@@ -923,7 +923,19 @@ button.social-icon {
+   color: var(--accent-purple);
+ }
+ 
+-/* X (Twitter) Link Button */
++/* Tweet Embed */
++.tweet-embed-wrapper {
++  display: flex;
++  justify-content: center;
++  margin: 1rem 0;
++}
++
++.tweet-embed-wrapper > div {
++  width: 100%;
++  max-width: 550px;
++}
++
++/* X (Twitter) Link Button (fallback) */
+ .x-link-button {
+   display: inline-flex;
+   align-items: center;

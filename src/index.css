@@ -923,7 +923,19 @@ button.social-icon {
   color: var(--accent-purple);
 }
 
-/* X (Twitter) Link Button */
+/* Tweet Embed */
+.tweet-embed-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.tweet-embed-wrapper > div {
+  width: 100%;
+  max-width: 550px;
+}
+
+/* X (Twitter) Link Button (fallback) */
 .x-link-button {
   display: inline-flex;
   align-items: center;

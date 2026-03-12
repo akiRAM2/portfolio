@@ -41,7 +41,7 @@ export const projects = [
 プログラミング以外の全工程を統括しました。
 
 直感的なUI設計、演出の完成度、ポータビリティの革新性が評価され、"Other-Misc"部門で優勝を獲得しました。
-
+https://x.com/akiram_vr/status/1903596321254347166
 ![SHOCK STICK画像](/images/shockstick1.webp)
 ![SHOCK STICK画像](/images/shockstick2.webp)
 ![SHOCK STICK画像](/images/shockstick3.webp)
@@ -133,6 +133,7 @@ OGURI - 3D Modeler, Voice
 
 新興ジャンルをいち早く取り入れたこと、また完成度の高いビジュアル表現が評価され、MMCコンペでは毎年激戦区となる部門の"Game"で優勝を獲得しました🏆
 
+https://x.com/akiram_vr/status/1772774775099945280
 ![下へ参ります画像](/images/goingdown.webp)
 ![下へ参ります画像](/images/goingdown2.webp)
 ![下へ参ります画像](/images/goingdown3.webp)
@@ -142,7 +143,8 @@ OGURI - 3D Modeler, Voice
 Credits:
 sisizanohito - Leader
 linki9s7 - Programmer
-akiRAM - Visual Artist`
+akiRAM - Visual Artist
+`
   },
   {
     title: "Train Light",
@@ -188,6 +190,9 @@ akiRAM - Visual Artist`
 友人10名のチームの全体統括を行いました。
 
 ▶ プレイはこちら: https://unityroom.com/games/omoide-huru-sora
+https://x.com/linki_biotro9s7/status/1673300034841108481
+![思い出降る空 ルール説明](/images/omoide_rules.png)
+![思い出降る空 クレジット](/images/omoide_credit.png)
     
 ディレクター: おかぜ, りんき, akiRAM
 プランナー: N-JELLY
@@ -196,10 +201,8 @@ akiRAM - Visual Artist`
 エンディングCG: Chameleon02
 BGM: Zozokasu
 SE: linki9s7, Zozokasu
-お茶出し係: MotoMaid
+お茶出し係: MotoMaid`
 
-![思い出降る空 ルール説明](/images/omoide_rules.png)
-![思い出降る空 クレジット](/images/omoide_credit.png)`
   },
   {
     title: "Steller Memories",
@@ -215,8 +218,8 @@ SE: linki9s7, Zozokasu
     Resoniteというプラットフォームの住民を登録・記録し、コミュニティの歴史を後世に残すことをコンセプトとしたイベントワールドです。
 
 1年目は1週間の稼働期間で279名の住民が登録、2年目は1週間強の稼働期間で303名の住民が登録
-【担当領域】企画、ワールド制作、イベント運営
-【開発】登録システム：orange氏 (https://x.com/orange_3134)
+【担当】企画、ワールド制作、イベント運営
+企画、登録システム、SE制作：[orange](https://x.com/orange_3134)
 
 SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来訪者が特別な体験をできる空間設計を目指しました。
 
@@ -241,12 +244,18 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
     category: "Event Staff",
     tags: ["Event Staff"],
     imageUrl: "/images/bhaptics.jpg",
-    detail: `東京ゲームショウ2025（TGS2025）にて4日間、触覚フィードバックデバイスメーカー「bHaptics」のブーススタッフとして参加。
+    detail: `2025年9月25日～9月28日に開催された『東京ゲームショウ2025（TGS2025）』にて4日間、触覚フィードバックデバイスメーカー「bHaptics」のブーススタッフとして参加。
 
 【担当】
 来場者への触覚デバイスの体験案内・製品説明を担当。デバイスの特性や活用シーンをわかりやすく解説し、来場者の体験をサポートしました。
 
-▶ bHaptics公式サイト: https://www.bhaptics.com/ja/`
+▶ bHaptics公式サイト: https://www.bhaptics.com/ja/
+
+https://x.com/akiram_vr/status/1971885226076012898
+
+https://x.com/akiram_vr/status/1971100996966445198
+`
+
   },
 
 ];
@@ -345,7 +354,7 @@ export const communityEvents = [
     year: "2025",
     platform: "Real Event",
     role: "Device Demonstrator",
-    description: "超メタフェスにて、Diver-Xブースのデバイス体験・説明スタッフとして参加。",
+    description: "2025年5月10日に開催されたVRユーザー向けイベント『超メタフェス』にて、Diver-Xブースのデバイス体験・説明スタッフとして参加。",
     category: "Event Staff",
     tags: ["Event Staff"],
     imageUrl: "/images/chometafes.jpg",
