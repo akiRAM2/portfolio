@@ -454,7 +454,7 @@ function App() {
             <h2>3D Assets</h2>
           </div>
           <p className="section-description">
-            ゲームやVR空間向けの3Dアセット制作や、販売アイテムに関する情報です。
+            VRゲームやイベント向けに制作した3D・2Dアセットの実績と、オンラインで展開している販売アイテムをご紹介します。
           </p>
           <div className="projects-grid">
             {assets.map((asset, index) => (
