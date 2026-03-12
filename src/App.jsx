@@ -2,7 +2,7 @@
 import ReactGA from "react-ga4";
 import { motion, AnimatePresence } from 'framer-motion';
 import { PiXLogo, PiEnvelope, PiSparkle, PiStack, PiCube, PiX, PiFileText, PiArrowSquareOut, PiUsers } from 'react-icons/pi';
-import { profile, projects, skills, assets, articles, certifications } from './data';
+import { profile, projects, skills, assets, communityEvents, articles, certifications } from './data';
 import './index.css';
 
 const fadeInUp = {
@@ -448,42 +448,6 @@ function App() {
           className="section"
         >
           <div className="section-title">
-            <PiUsers className="title-icon" />
-            <h2>Community Events</h2>
-          </div>
-          <p className="section-description">
-            VRプラットフォームを中心に、数多くの小規模イベントの企画と主催を行っています。イベントポスターのデザインも担当。
-          </p>
-          <motion.div
-            variants={fadeInUp}
-            className="glass-panel events-card"
-          >
-            <div className="events-image">
-              <img src="/images/events.webp" alt="Community Events" />
-            </div>
-            <p className="description">
-              VRコミュニティの活性化を目指し、定期的にイベントを企画・運営しています。イベントビジュアルの制作から当日の運営まで、幅広く担当しています。
-            </p>
-            <a
-              href="https://note.com/akiram_vr/n/n3842d4981d00"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="events-link"
-            >
-              <span>活動実績を見る</span>
-              <PiArrowSquareOut size={16} />
-            </a>
-          </motion.div>
-        </motion.section>
-
-        <motion.section
-          initial="initial"
-          whileInView="animate"
-          viewport={{ once: true }}
-          variants={staggerContainer}
-          className="section"
-        >
-          <div className="section-title">
             <PiFileText className="title-icon purple" />
             <h2>Technical Writing</h2>
           </div>
@@ -495,6 +459,52 @@ function App() {
               <ArticleCard key={index} article={article} />
             ))}
           </div>
+        </motion.section>
+
+        <motion.section
+          initial="initial"
+          whileInView="animate"
+          viewport={{ once: true }}
+          variants={staggerContainer}
+          className="section"
+        >
+          <div className="section-title">
+            <PiUsers className="title-icon" />
+            <h2>Events & Community</h2>
+          </div>
+          <p className="section-description">
+            VRイベントへのスタッフ参加や、コミュニティの企画・運営まで、幅広い形で活動に携わっています。
+          </p>
+          <div className="projects-grid">
+            {communityEvents.map((event, index) => (
+              <ProjectCard
+                key={index}
+                project={event}
+                onClick={() => setSelectedItem(event)}
+              />
+            ))}
+          </div>
+          <motion.div
+            variants={fadeInUp}
+            className="glass-panel events-card"
+            style={{ marginTop: "2rem" }}
+          >
+            <div className="events-image">
+              <img src="/images/events.webp" alt="Events & Community" />
+            </div>
+            <p className="description">
+              VRコミュニティの活性化を目指し、定期的にイベントを企画・運営しています。イベントビジュアルの制作から当日の運営まで、幅広く担当しています。
+            </p>
+            <a
+              href="https://note.com/akiram_vr/n/n3842d4981d00"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="events-link"
+            >
+              <span>さらに活動実績を見る</span>
+              <PiArrowSquareOut size={16} />
+            </a>
+          </motion.div>
         </motion.section>
 
         <motion.section

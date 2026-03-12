@@ -27,7 +27,7 @@ export const projects = [
     year: "2025",
     platform: "Resonite (VR)",
     role: "Direction, Design, Sound",
-    description: "派手な演出のVRイライラ棒ゲーム。MMC25 “Other-Misc”部門 優勝。ディレクション、ビジュアルデザイン、PV制作などを担当",
+    description: "派手な演出のVRイライラ棒ゲーム。ディレクション、ビジュアルデザイン、PV制作などを担当。MMC25 “Other-Misc”部門 優勝。",
     category: "Game",
     tags: ["Director", "Designer"],
     imageUrl: "https://www.youtube.com/embed/fV47s69U8f0?rel=0",
@@ -60,7 +60,7 @@ Credits:
     year: "2025",
     platform: "Resonite (VR)",
     role: "Game Design, 3D Assets",
-    description: "VIVE LBEシステム向け協力型VRアクションゲーム。VIVExResonite LBEコンペティション最優秀賞。ビジュアルデザイン、PV制作を担当",
+    description: "VIVE LBEシステム向け協力型VRアクションゲーム。ビジュアルデザイン、PV制作を担当。VIVExResonite LBEコンペティション最優秀賞。",
     category: "Game",
     tags: ["Designer"],
     imageUrl: "https://www.youtube.com/embed/-ahH8RTy4pg?rel=0",
@@ -119,7 +119,7 @@ OGURI - 3D Modeler, Voice
     year: "2024",
     platform: "Resonite (VR)",
     role: "3D/2D Design",
-    description: "VRマルチプレイヤー間違い探しゲーム。MMC24 “Game”部門 優勝。ビジュアルデザイン、PV制作を担当",
+    description: "VRマルチプレイヤー間違い探しゲーム。ビジュアルデザイン、PV制作を担当。MMC24 “Game”部門 優勝。",
     category: "Game",
     tags: ["Designer"],
     imageUrl: "https://www.youtube.com/embed/ycWLUtaFI3w?rel=0",
@@ -171,38 +171,6 @@ akiRAM - Visual Artist`
 ![Train Light画像](/images/TrainLight4.webp)`
   },
   {
-    title: "Steller Memories",
-    year: "2024, 2025",
-    platform: "Resonite (VR)",
-    role: "Planner, Creator",
-    description: "VR空間内の期間限定イベントワールド企画・ワールド制作・イベント運営。",
-    category: "Event",
-    tags: ["Organizer"],
-    imageUrl: "https://www.youtube.com/embed/QQoKfTf0gY4?rel=0",
-    thumbnailUrl: "/images/stellar.mp4",
-    detail: `Resoniteサービス開始1周年を記念した、コミュニティアーカイブプロジェクト。
-    Resoniteというプラットフォームの住民を登録・記録し、コミュニティの歴史を後世に残すことをコンセプトとしたイベントワールドです。
-
-1年目は1週間の稼働期間で279名の住民が登録、2年目は1週間強の稼働期間で303名の住民が登録
-【担当領域】企画、ワールド制作、イベント運営
-【開発】登録システム：orange氏 (https://x.com/orange_3134)
-
-SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来訪者が特別な体験をできる空間設計を目指しました。
-
-**2年目 (2025):**
-
-![Steller Memories 2年目](/images/steallar4.jpg)
-![Steller Memories 2年目](/images/steallar5.jpg)
-
-**1年目 (2024):**
-▶ 紹介動画: https://www.youtube.com/embed/QmPZ7x7cQH0?rel=0
-
-![Steller Memories 1年目](/images/stellar2.webp)
-![Steller Memories 1年目](/images/stellar3.webp)
-`
-  },
-
-  {
     title: "思い出降る空",
     year: "2023",
     platform: "Unity",
@@ -233,27 +201,54 @@ SE: linki9s7, Zozokasu
 ![思い出降る空 ルール説明](/images/omoide_rules.png)
 ![思い出降る空 クレジット](/images/omoide_credit.png)`
   },
-
   {
-    title: "3DCGすきー!",
-    year: "Ongoing",
-    platform: "Misskey",
-    role: "Admin",
-    description: "450人規模のMisskeyサーバー運営。",
-    category: "Community",
-    tags: ["Community Manager"],
-    imageUrl: "/images/3dcgsuki.png",
-    detail: `3DCG愛好者が集まるコミュニティスペースとして、分散型SNS「Misskey」上に専用サーバーを共同開設。
+    title: "Steller Memories",
+    year: "2024, 2025",
+    platform: "Resonite (VR)",
+    role: "Planner, Creator",
+    description: "VR空間内の期間限定イベントワールド企画・ワールド制作・イベント運営。",
+    category: "Event",
+    tags: ["Organizer"],
+    imageUrl: "https://www.youtube.com/embed/QQoKfTf0gY4?rel=0",
+    thumbnailUrl: "/images/stellar.mp4",
+    detail: `Resoniteサービス開始1周年を記念した、コミュニティアーカイブプロジェクト。
+    Resoniteというプラットフォームの住民を登録・記録し、コミュニティの歴史を後世に残すことをコンセプトとしたイベントワールドです。
 
-定期イベント「モデリングジャム」の企画・運営を通じて、450名規模のコミュニティへと成長させました。
-現在はMisskeyサーバを閉鎖後、分散型SNS「Concrnt」上の１つのチャンネルとして移行し、継続的な運営を行っています。
+1年目は1週間の稼働期間で279名の住民が登録、2年目は1週間強の稼働期間で303名の住民が登録
+【担当領域】企画、ワールド制作、イベント運営
+【開発】登録システム：orange氏 (https://x.com/orange_3134)
 
-【役割】サーバー管理、イベント企画・運営
+SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来訪者が特別な体験をできる空間設計を目指しました。
 
-▶ Concrnt内の3DCGスキ!コミュニティ: https://concrnt.world/timeline/t9f9xc9t3eegkxnqf06a6x7qm0c@ariake.concrnt.net
+**2年目 (2025):**
 
-![3DCGすきー画像](/images/3dcgsuki_event.webp)`
-  }
+![Steller Memories 2年目](/images/steallar4.jpg)
+![Steller Memories 2年目](/images/steallar5.jpg)
+
+**1年目 (2024):**
+▶ 紹介動画: https://www.youtube.com/embed/QmPZ7x7cQH0?rel=0
+
+![Steller Memories 1年目](/images/stellar2.webp)
+![Steller Memories 1年目](/images/stellar3.webp)
+`
+  },
+  {
+    title: "TGS2025 bHapticsブース 説明員",
+    year: "2025",
+    platform: "Real Event",
+    role: "Device Demonstrator",
+    description: "東京ゲームショウ2025 bHapticsブースにて、触覚デバイスの体験・説明スタッフとして参加。",
+    category: "Event Staff",
+    tags: ["Event Staff"],
+    imageUrl: "/images/bhaptics.jpg",
+    detail: `東京ゲームショウ2025（TGS2025）にて4日間、触覚フィードバックデバイスメーカー「bHaptics」のブーススタッフとして参加。
+
+【担当】
+来場者への触覚デバイスの体験案内・製品説明を担当。デバイスの特性や活用シーンをわかりやすく解説し、来場者の体験をサポートしました。
+
+▶ bHaptics公式サイト: https://www.bhaptics.com/ja/`
+  },
+
 ];
 
 export const assets = [
@@ -342,54 +337,44 @@ Vket2025 Winterに出展している様子
 ![BOOTHイベント画像](/images/event3.jpg)
 『サキュバス酒場』に掲示している様子`
   },
+];
+
+export const communityEvents = [
   {
-    title: "コンビニおにぎり",
+    title: "超メタフェス Diver-Xブース 説明員",
     year: "2025",
-    description: "VRおにぎり開封シミュレーター。国際コンペティション「MMC25」参加作品",
-    category: "World",
-    tags: ["3D Assets"],
-    imageUrl: "https://www.youtube.com/embed/zEC--DewPHM?rel=0",
-    detail: `Resonite上に実装されたVRおにぎり開封シミュレーター。
+    platform: "Real Event",
+    role: "Device Demonstrator",
+    description: "超メタフェスにて、Diver-Xブースのデバイス体験・説明スタッフとして参加。",
+    category: "Event Staff",
+    tags: ["Event Staff"],
+    imageUrl: "/images/chometafes.jpg",
+    detail: `VRイベント「超メタフェス」にて、VRデバイスメーカー「Diver-X」のブーススタッフとして参加。
 
-【担当領域】おにぎり3Dモデル、背景3Dアセット制作
+【担当】
+来場者へのVRデバイスの体験案内・製品説明を担当。製品の特徴やセットアップ手順をわかりやすく伝え、来場者のスムーズな体験をサポートしました。
 
-おにぎりの開封アニメーションを実装。VR空間内でかつてない自然なおにぎり開封インタラクションを実現。
-コンビニの背景もフルスクラッチで制作しました。
-
-国際コンペティション「MMC25」参加作品。
-
-▶ デモ動画: https://www.youtube.com/watch?v=zEC--DewPHM
-
-![コンビニおにぎり画像](/images/konbini2.webp)
-![コンビニおにぎり画像](/images/konbini3.webp)
-![コンビニおにぎり画像](/images/konibini4.webp)
-Credit:
-MotoMaid
-akiRAM
-doron`
+▶ Diver-X公式サイト: https://diver-x.jp/`
   },
   {
-    title: "すごトーク!",
-    year: "2023",
-    description: "NeosVR(現:Resonite)上の話題すごろくワールド制作。 ",
-    category: "World",
-    tags: ["3D Assets", "Logo Design"],
-    imageUrl: "https://www.youtube.com/embed/H3fBKUaqlHU?rel=0",
-    detail: `NeosVR(現:Resonite)上に作られた話題すごろくワールド制作。
+    title: "3DCGすきー!",
+    year: "Ongoing",
+    platform: "Misskey",
+    role: "Admin",
+    description: "450人規模のMisskeyサーバー運営。",
+    category: "Community",
+    tags: ["Community Manager"],
+    imageUrl: "/images/3dcgsuki.png",
+    detail: `3DCG愛好者が集まるコミュニティスペースとして、分散型SNS「Misskey」上に専用サーバーを共同開設。
 
-【担当領域】背景アセット、ロゴデザイン、紹介PV制作
+定期イベント「モデリングジャム」の企画・運営を通じて、450名規模のコミュニティへと成長させました。
+現在はMisskeyサーバを閉鎖後、分散型SNS「Concrnt」上の１つのチャンネルとして移行し、継続的な運営を行っています。
 
-教育番組のような親しみやすくポップな絵柄というオーダーに合わせ、低負荷を意識してアセットを制作しました。
+【役割】サーバー管理、イベント企画・運営
 
-▶ 紹介PV: https://www.youtube.com/watch?v=H3fBKUaqlHU
+▶ Concrnt内の3DCGスキ!コミュニティ: https://concrnt.world/timeline/t9f9xc9t3eegkxnqf06a6x7qm0c@ariake.concrnt.net
 
-![すごトーク画像](/images/sugotalk.webp)
-![すごトーク画像](/images/sugotalk2.webp)
-![すごトーク画像](/images/sugotalk3.webp)
-
-Credit:
-linki9s7(Leader)
-`
+![3DCGすきー画像](/images/3dcgsuki_event.webp)`
   }
 ];
 
@@ -441,7 +426,7 @@ export const articles = [
 export const certifications = [
   {
     name: "TOEIC L&R",
-    score: "890",
+    score: "880",
     date: "2025"
   },
   {
