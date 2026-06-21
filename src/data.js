@@ -217,26 +217,20 @@ SE: linki9s7, Zozokasu
 
   },
   {
-    title: "TGS2025 bHapticsブース 説明員",
-    year: "2025",
+    title: "コンテンツ東京 VRChat Inc.ブース VR体験スタッフ",
+    year: "2026",
     platform: "Real Event",
-    role: "Device Demonstrator",
-    description: "東京ゲームショウ2025 bHapticsブースにて、触覚デバイスの体験・説明スタッフとして参加。",
+    role: "Event Staff",
+    description: "2026年6月17日～19日に開催されたビジネスイベント「コンテンツ東京」にて、VRChat Inc.ブースのVR体験スタッフとして参加。",
     category: "Event Staff",
     tags: ["Event Staff"],
-    imageUrl: "/images/bhaptics.jpg",
-    detail: `2025年9月25日～9月28日に開催された『東京ゲームショウ2025（TGS2025）』にて4日間、触覚フィードバックデバイスメーカー「bHaptics」のブーススタッフとして参加。
+    imageUrl: "/images/vrc.webp",
+    detail: `ビジネスイベント「コンテンツ東京」にて、VRChat Inc.ブースのVR体験スタッフとして参加。
 
 【担当】
-来場者への触覚デバイスの体験案内・製品説明を担当。デバイスの特性や活用シーンをわかりやすく解説し、来場者の体験をサポートしました。
+来場者へのVRChat体験案内を担当。VR機器の装着・操作サポートを行い、初めてVRChatに触れる来場者にも体験内容や操作方法が伝わるよう、スムーズな体験をサポートしました。
 
-▶ bHaptics公式サイト: https://www.bhaptics.com/ja/
-
-https://x.com/akiram_vr/status/1971885226076012898
-
-https://x.com/akiram_vr/status/1971100996966445198
-`
-
+▶ VRChat公式サイト: https://hello.vrchat.com/`
   },
 ];
 
@@ -348,16 +342,31 @@ sisizanohito - Leader
 linki9s7 - Programmer
 akiRAM - Visual Artist
 `
+  },
+  {
+    title: "うちの子！ヘイローメーカー モデル提供",
+    year: "2026",
+    platform: "VRChat",
+    role: "3D Modeling",
+    description: "Zozokasuさんの商品「うちの子！ヘイローメーカー」へ、8種類の3Dモデルを提供しました。",
+    category: "Assets",
+    tags: ["3D Assets", "Modeling"],
+    imageUrl: "/images/utinokohalo.webp",
+    detail: `Zozokasuさんの商品「うちの子！ヘイローメーカー」へ、8種類の3Dモデルを提供しました。
+
+400ポリゴン以内、BaseMapのみの制約の中で、元となった題材のシルエットやディティールをなるべく再現しました。
+
+▶ 商品ページ: https://zozokasu.booth.pm/items/8187843`
   }
 ];
 
 export const communityEvents = [
   {
     title: "超メタフェス Diver-Xブース 説明員",
-    year: "2025",
+    year: "2025-2026",
     platform: "Real Event",
     role: "Device Demonstrator",
-    description: "2025年5月10日に開催されたVRユーザー向けイベント『超メタフェス』にて、Diver-Xブースのデバイス体験・説明スタッフとして参加。",
+    description: "2025年5月10日および2026年5月23日に開催されたVRユーザー向けイベント『超メタフェス』、『超メタフェス2026』にて、Diver-Xブースのデバイス体験・説明スタッフとして参加。",
     category: "Event Staff",
     tags: ["Event Staff"],
     imageUrl: "/images/chometafes.jpg",
@@ -367,6 +376,28 @@ export const communityEvents = [
 来場者へのVRデバイスの体験案内・製品説明を担当。製品の特徴やセットアップ手順をわかりやすく伝え、来場者のスムーズな体験をサポートしました。
 
 ▶ Diver-X公式サイト: https://diver-x.jp/`
+  },
+  {
+    title: "TGS2025 bHapticsブース 説明員",
+    year: "2025",
+    platform: "Real Event",
+    role: "Device Demonstrator",
+    description: "東京ゲームショウ2025 bHapticsブースにて、触覚デバイスの体験・説明スタッフとして参加。",
+    category: "Event Staff",
+    tags: ["Event Staff"],
+    imageUrl: "/images/bhaptics.jpg",
+    detail: `2025年9月25日～9月28日に開催された『東京ゲームショウ2025（TGS2025）』にて4日間、触覚フィードバックデバイスメーカー「bHaptics」のブーススタッフとして参加。
+
+【担当】
+来場者への触覚デバイスの体験案内・製品説明を担当。デバイスの特性や活用シーンをわかりやすく解説し、来場者の体験をサポートしました。
+
+▶ bHaptics公式サイト: https://www.bhaptics.com/ja/
+
+https://x.com/akiram_vr/status/1971885226076012898
+
+https://x.com/akiram_vr/status/1971100996966445198
+`
+
   },
   {
     title: "3DCGすきー!",
