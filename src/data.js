@@ -356,7 +356,9 @@ akiRAM - Visual Artist
 
 400ポリゴン以内、BaseMapのみの制約の中で、元となった題材のシルエットやディティールをなるべく再現しました。
 
-▶ 商品ページ: https://zozokasu.booth.pm/items/8187843`
+▶ 商品ページ: https://zozokasu.booth.pm/items/8187843
+
+![うちの子！ヘイローメーカー画像](/images/utinokohalo2.webp)`
   }
 ];
 
