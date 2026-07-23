@@ -480,8 +480,12 @@ export const certifications = [
     date: "2025"
   },
   {
+    name: "色彩検定",
+    level: "3級"
+  },
+  {
     name: "インテル PCマイスター",
-    level: "<中級>",
+    level: "中級",
     date: "2025"
   }
 ];
