@@ -235,6 +235,10 @@ button.social-icon {
   gap: 1rem;
 }
 
+.works-grid {
+  grid-template-columns: 1fr;
+}
+
 @media (min-width: 768px) {
 
   .projects-grid,

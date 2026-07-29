@@ -431,7 +431,7 @@ function App() {
           <p className="section-description">
             コンテンツの企画・ディレクションから技術サポート業務まで、多岐にわたる活動の中から主要な実績をご紹介します。
           </p>
-          <div className="projects-grid">
+          <div className="projects-grid works-grid">
             {projects.map((project, index) => (
               <ProjectCard
                 key={index}
