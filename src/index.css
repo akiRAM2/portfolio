@@ -242,18 +242,19 @@ button.social-icon {
   }
 
   .hero-title {
-    font-size: 2.5rem;
-    margin-bottom: 0.75rem;
+    font-size: 2.125rem;
+    margin-bottom: 0.5rem;
   }
 
   .hero-subtitle {
-    font-size: 1.05rem;
-    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
   }
 
   .hero-description {
-    font-size: 0.9rem;
-    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
   }
 
   .social-links {
