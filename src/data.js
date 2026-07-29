@@ -26,18 +26,18 @@ export const projects = [
     title: "Virtual Market Customer & Technical Support",
     year: "2024 - Ongoing",
     platform: "Various",
-    description: "株式会社HIKKYが主催する「バーチャルマーケット（Vket）」等でのカスタマー・テクニカルサポート",
+    description: "㈱HIKKY「バーチャルマーケット（Vket）」「Vket Cloud」等での日・英ユーザーサポート、ドキュメント執筆・翻訳",
     category: "Documentation ＆ Support",
     tags: ["Technical Writing", "Support"],
     imageUrl: "/images/vkets.mp4",
     detail: `株式会社HIKKYが主催する世界最大のVRイベント「バーチャルマーケット（Vket）」、および同社開発のメタバースエンジン「Vket Cloud」におけるカスタマー・テクニカルサポート業務。
 
-2024年より計4会期（Vket2024 Summer / Winter, Vket2025 Summer / Winter）にわたり、出展者サポートおよび技術ドキュメント整備を主軸として参画しています。
+2024年より計5会期（Vket2024 Summer / Winter, Vket2025 Summer / Winter, Vket 2026 Summer）にわたり、出展者のサポート、およびドキュメントの執筆・管理を担当しています。
 自身の出展経験を活かし、同じクリエイターの目線で、きめ細やかなサポートを目指しています。
 
 【担当領域】
-**・テクニカルカスタマーサポート**
-一般ユーザーおよび出展者様からの一般的または技術的な問い合わせに対応しました。
+**・カスタマー＆テクニカルサポート**
+ユーザーからの一般的または技術的な問い合わせ対応等。
 
 **・Vket出展者向けマニュアル制作**
 出展者向け入稿マニュアルの整備・執筆を担当。
