@@ -83,6 +83,27 @@ ul {
   margin-bottom: 6rem;
 }
 
+.section + .section {
+  position: relative;
+}
+
+.section + .section::before {
+  content: "";
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  width: min(520px, 82vw);
+  height: 2px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(245, 158, 11, 0.45),
+    rgba(234, 88, 12, 0.45),
+    transparent
+  );
+}
+
 .section-title {
   font-size: 1rem;
   /* 1.5remから縮小 */
