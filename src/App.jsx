@@ -88,7 +88,7 @@ function Hero() {
             className="social-icon discord"
             title="クリックしてDiscord IDをコピー"
           >
-            <span className="discord-text">Discord: {profile.socials.discord}</span>
+            <span className="discord-text">Discord</span>
           </button>
           <a href={`mailto:${profile.email}`} className="social-icon email">
             <PiEnvelope size={24} />
