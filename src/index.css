@@ -378,6 +378,14 @@ button.social-icon {
   /* モバイルでは非表示 */
 }
 
+.works-grid .description {
+  display: block !important;
+}
+
+.works-grid .line-clamp-3 {
+  display: -webkit-box !important;
+}
+
 @media (min-width: 768px) {
   .description {
     display: block !important;
@@ -591,8 +599,7 @@ button.social-icon {
   font-size: 1rem;
   margin-bottom: 2rem;
   max-width: 700px;
-  display: none;
-  /* モバイルでは非表示 */
+  display: block;
 }
 
 @media (min-width: 768px) {

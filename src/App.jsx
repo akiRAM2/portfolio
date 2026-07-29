@@ -169,7 +169,7 @@ function AssetCard({ asset, onClick }) {
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
     >
-      <ProjectMedia url={asset.imageUrl} title={asset.title} />
+      <ProjectMedia url={asset.thumbnailUrl || asset.imageUrl} title={asset.title} />
       <div className="project-content">
         <div className="card-header">
           <span className="badge">{asset.category}</span>
@@ -429,7 +429,7 @@ function App() {
             <h2>Works & Selected Projects</h2>
           </div>
           <p className="section-description">
-            コンテンツの企画・ディレクションから技術サポート業務まで、多岐にわたる活動の中から主要な実績をご紹介します。
+            企画・ディレクションから技術サポートまで、主な実績をご紹介します。
           </p>
           <div className="projects-grid works-grid">
             {projects.map((project, index) => (
@@ -451,12 +451,12 @@ function App() {
         >
           <div className="section-title">
             <PiCube className="title-icon" />
-            <h2>3D Assets</h2>
+            <h2>3D &amp; 2D Design</h2>
           </div>
           <p className="section-description">
-            VRゲームやイベント向けに制作した3D・2Dアセットの実績と、オンラインで展開している販売アイテムをご紹介します。
+            VRゲームやイベント向けの3D・2Dデザインをご紹介します。
           </p>
-          <div className="projects-grid">
+          <div className="projects-grid works-grid">
             {assets.map((asset, index) => (
               <AssetCard
                 key={index}
@@ -479,7 +479,7 @@ function App() {
             <h2>Technical Writing</h2>
           </div>
           <p className="section-description">
-            VR関係の技術解説や、ソフトやサービスの導入ガイドなど、初心者の方でも迷わない丁寧な解説記事を執筆しています。
+            主にVR関連の技術的な解説や初心者向け導入記事を執筆しています。
           </p>
           <div className="articles-grid">
             {articles.map((article, index) => (
@@ -500,7 +500,7 @@ function App() {
             <h2>Events & Community</h2>
           </div>
           <p className="section-description">
-            VRイベントへのスタッフ参加や、コミュニティの企画・運営まで、幅広い形で活動に携わっています。
+            VR内外のイベントへの企画・主催やサポート、コミュニティ運営を一部抜粋して紹介します。
           </p>
           <div className="projects-grid">
             {communityEvents.map((event, index) => (
@@ -545,9 +545,6 @@ function App() {
             <PiStack className="title-icon purple" />
             <h2>Skills & Expertise</h2>
           </div>
-          <p className="section-description">
-            ゲームディレクション、3Dアセットやロゴ・UIのデザイン、コミュニティマネジメント、技術ドキュメント執筆など、多岐にわたるスキルセットを保有しています。
-          </p>
           <div className="skills-grid">
             {skills.map((skill, index) => (
               <motion.div
@@ -591,7 +588,7 @@ function App() {
             <h2>Contact</h2>
           </div>
           <p className="section-description">
-            お仕事のご依頼やご相談、コミュニティイベントに関するお問い合わせなど、お気軽にご連絡ください。
+            お仕事やイベントに関するご相談は、お気軽にご連絡ください。
           </p>
 
           <div className="contact-grid">

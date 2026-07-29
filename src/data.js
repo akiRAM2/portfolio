@@ -108,37 +108,6 @@ OGURI - 3D Modeler, Voice
 `
   },
   {
-    title: "Steller Memories",
-    year: "2024, 2025",
-    platform: "Resonite (VR)",
-    role: "Planner, Creator",
-    description: "VR空間内の期間限定イベントワールド企画・ワールド制作・イベント運営。",
-    category: "Event",
-    tags: ["Organizer"],
-    imageUrl: "https://www.youtube.com/embed/QQoKfTf0gY4?rel=0",
-    thumbnailUrl: "/images/stellar.mp4",
-    detail: `Resoniteサービス開始1周年を記念した、コミュニティアーカイブプロジェクト。
-    Resoniteというプラットフォームの住民を登録・記録し、コミュニティの歴史を後世に残すことをコンセプトとしたイベントワールドです。
-
-1年目は1週間の稼働期間で279名の住民が登録、2年目は1週間強の稼働期間で303名の住民が登録
-【担当】企画、ワールド制作、イベント運営
-企画、登録システム、SE制作：[orange](https://x.com/orange_3134)
-
-SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来訪者が特別な体験をできる空間設計を目指しました。
-
-**2年目 (2025):**
-
-![Steller Memories 2年目](/images/steallar4.jpg)
-![Steller Memories 2年目](/images/steallar5.jpg)
-
-**1年目 (2024):**
-▶ 紹介動画: https://www.youtube.com/embed/QmPZ7x7cQH0?rel=0
-
-![Steller Memories 1年目](/images/stellar2.webp)
-![Steller Memories 1年目](/images/stellar3.webp)
-`
-  },
-  {
     title: "VketReal 2025 Summer「イマーシブストア」ギミック類制作",
     year: "2025",
     platform: "Resonite",
@@ -158,6 +127,52 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
 https://twitter.com/akiram_vr/status/1950040395301158943
 https://twitter.com/SawaeMika/status/1948943433571438852`
   },
+  {
+    title: "VketReal 2024 Summer 'AVATAR MEETS'",
+    year: "2024",
+    platform: "Resonite",
+    description: "バーチャル×リアル連動コンテンツの3Dアセット制作©WeaverseLab株式会社",
+    category: "Assets",
+    tags: ["3D Assets"],
+    imageUrl: "/images/vketreal2024.webp",
+    detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
+
+【制作アセット】太鼓、杵・臼、土俵など
+日本らしいモチーフを実在感のある質感で表現しつつ、VR空間での映えを意識した揺れもの要素や、インタラクションに応じたEmission発光ギミックを使用できるようにしました。視覚的な楽しさとインタラクティブ性を両立させました。
+
+▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
+
+![VketReal画像](/images/vketreal2024_2.webp)`
+  },
+  {
+    title: "BOOTHアセット販売",
+    year: "Ongoing",
+    platform: "VRChat/Resonite",
+    description: "VRChat向けアクセサリー・3Dアセット販売",
+    category: "Assets",
+    tags: ["3D Assets", "Sales"],
+    imageUrl: "/images/booths.jpg",
+    detail: `主にVRChat向けアクセサリー・背景3Dアセットを「BOOTH」にて販売。「端子しっぽ」などニッチな需要に応えるアクセサリー商品を展開しています。
+
+バーチャル空間上の商品展示会「バーチャルマーケット」「メタフェス」「X-NEOKET」等にも出展。
+
+【ショップ情報】
+▶ 個人ショップ「akiRAM」: https://akiram.booth.pm/
+▶ 共同ショップ「SHIBRAMS」(soncho氏と共同運営): https://shibrams.booth.pm/
+
+
+![BOOTHイベント画像](/images/event1.jpg)
+Vket2024 Winterに出展している様子
+
+![BOOTHイベント画像](/images/event2.jpg)
+Vket2025 Winterに出展している様子
+
+![BOOTHイベント画像](/images/event3.jpg)
+『サキュバス酒場』に掲示している様子`
+  },
+];
+
+const designProjects = [
   {
     title: "Train Light",
     year: "2025",
@@ -217,75 +232,13 @@ SE: linki9s7, Zozokasu
 
   },
   {
-    title: "コンテンツ東京 VRChat Inc.ブース VR体験スタッフ",
-    year: "2026",
-    platform: "Real Event",
-    role: "Event Staff",
-    description: "2026年6月17日～19日に開催されたビジネスイベント「コンテンツ東京」にて、VRChat Inc.ブースのVR体験スタッフとして参加。",
-    category: "Event Staff",
-    tags: ["Event Staff"],
-    imageUrl: "/images/vrc.webp",
-    detail: `ビジネスイベント「コンテンツ東京」にて、VRChat Inc.ブースのVR体験スタッフとして参加。
-
-【担当】
-来場者へのVRChat体験案内を担当。VR機器の装着・操作サポートを行い、初めてVRChatに触れる来場者にも体験内容や操作方法が伝わるよう、スムーズな体験をサポートしました。
-
-▶ VRChat公式サイト: https://hello.vrchat.com/`
-  },
-];
-
-export const assets = [
-  {
-    title: "VketReal 2024 Summer 'AVATAR MEETS'",
-    year: "2024",
-    platform: "Resonite",
-    description: "バーチャル×リアル連動コンテンツの3Dアセット制作©WeaverseLab株式会社",
-    category: "Assets",
-    tags: ["3D Assets"],
-    imageUrl: "/images/vketreal2024.webp",
-    detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
-
-【制作アセット】太鼓、杵・臼、土俵など
-日本らしいモチーフを実在感のある質感で表現しつつ、VR空間での映えを意識した揺れもの要素や、インタラクションに応じたEmission発光ギミックを使用できるようにしました。視覚的な楽しさとインタラクティブ性を両立させました。
-
-▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
-
-![VketReal画像](/images/vketreal2024_2.webp)`
-  },
-  {
-    title: "BOOTHアセット販売",
-    year: "Ongoing",
-    platform: "VRChat/Resonite",
-    description: "VRChat向けアクセサリー・3Dアセット販売",
-    category: "Assets",
-    tags: ["3D Assets", "Sales"],
-    imageUrl: "/images/booths.jpg",
-    detail: `主にVRChat向けアクセサリー・背景3Dアセットを「BOOTH」にて販売。「端子しっぽ」などニッチな需要に応えるアクセサリー商品を展開しています。
-
-バーチャル空間上の商品展示会「バーチャルマーケット」「メタフェス」「X-NEOKET」等にも出展。
-
-【ショップ情報】
-▶ 個人ショップ「akiRAM」: https://akiram.booth.pm/
-▶ 共同ショップ「SHIBRAMS」(soncho氏と共同運営): https://shibrams.booth.pm/
-
-
-![BOOTHイベント画像](/images/event1.jpg)
-Vket2024 Winterに出展している様子
-
-![BOOTHイベント画像](/images/event2.jpg)
-Vket2025 Winterに出展している様子
-
-![BOOTHイベント画像](/images/event3.jpg)
-『サキュバス酒場』に掲示している様子`
-  },
-  {
     title: "いろいろおばけ",
     year: "2025",
     platform: "Resonite (VR)",
     role: "Game Design, 3D Assets",
     description: "VIVE LBEシステム向け協力型VRアクションゲーム。ビジュアルデザイン、PV制作を担当。VIVExResonite LBEコンペティション最優秀賞。",
     category: "Game",
-    tags: ["Designer"],
+    tags: ["Designer", "Assets"],
     imageUrl: "https://www.youtube.com/embed/-ahH8RTy4pg?rel=0",
     thumbnailUrl: "/images/iroiro.mp4",
     detail: `WeaverseLab株式会社様主催の、Resoniteを使用したLBEコンテンツのコンペティション応募作品。
@@ -318,7 +271,7 @@ akiRAM - Designer
     role: "3D/2D Design",
     description: "VRマルチプレイヤー間違い探しゲーム。ビジュアルデザイン、PV制作を担当。MMC24 “Game”部門 優勝。",
     category: "Game",
-    tags: ["Designer"],
+    tags: ["Designer", "Assets"],
     imageUrl: "https://www.youtube.com/embed/ycWLUtaFI3w?rel=0",
     thumbnailUrl: "/images/goingdown.mp4",
     detail: `1ヵ月の期間でResonite上に制作された、国際コンペティション「MMC24」向けVRマルチプレイ対応の間違い探しゲーム。
@@ -348,11 +301,11 @@ akiRAM - Visual Artist
     year: "2026",
     platform: "VRChat",
     role: "3D Modeling",
-    description: "Zozokasuさんの商品「うちの子！ヘイローメーカー」へ、8種類の3Dモデルを提供しました。",
+    description: "Zozokasuさんの商品「うちの子！ヘイローメーカー」へ、8種類の3Dモデルを提供。",
     category: "Assets",
     tags: ["3D Assets", "Modeling"],
     imageUrl: "/images/utinokohalo.webp",
-    detail: `Zozokasuさんの商品「うちの子！ヘイローメーカー」へ、8種類の3Dモデルを提供しました。
+    detail: `Zozokasuさんの商品「うちの子！ヘイローメーカー」へ、8種類の3Dモデルを提供。
 
 400ポリゴン以内、BaseMapのみの制約の中で、元となった題材のシルエットやディティールをなるべく再現しました。
 
@@ -362,7 +315,63 @@ akiRAM - Visual Artist
   }
 ];
 
+const featuredDesignTitles = ["下へ参ります。", "いろいろおばけ"];
+const reorderedDesignTitles = new Set([...featuredDesignTitles, "思い出降る空"]);
+
+export const assets = [
+  ...featuredDesignTitles.map(title => designProjects.find(project => project.title === title)),
+  ...designProjects.filter(project => !reorderedDesignTitles.has(project.title)),
+  designProjects.find(project => project.title === "思い出降る空"),
+];
+
 export const communityEvents = [
+  {
+    title: "Steller Memories",
+    year: "2024, 2025",
+    platform: "Resonite (VR)",
+    role: "Planner, Creator",
+    description: "VR空間内の期間限定イベントワールド企画・ワールド制作・イベント運営。",
+    category: "Event",
+    tags: ["Organizer"],
+    imageUrl: "https://www.youtube.com/embed/QQoKfTf0gY4?rel=0",
+    thumbnailUrl: "/images/stellar.mp4",
+    detail: `Resoniteサービス開始1周年を記念した、コミュニティアーカイブプロジェクト。
+    Resoniteというプラットフォームの住民を登録・記録し、コミュニティの歴史を後世に残すことをコンセプトとしたイベントワールドです。
+
+1年目は1週間の稼働期間で279名の住民が登録、2年目は1週間強の稼働期間で303名の住民が登録
+【担当】企画、ワールド制作、イベント運営
+企画、登録システム、SE制作：[orange](https://x.com/orange_3134)
+
+SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来訪者が特別な体験をできる空間設計を目指しました。
+
+**2年目 (2025):**
+
+![Steller Memories 2年目](/images/steallar4.jpg)
+![Steller Memories 2年目](/images/steallar5.jpg)
+
+**1年目 (2024):**
+▶ 紹介動画: https://www.youtube.com/embed/QmPZ7x7cQH0?rel=0
+
+![Steller Memories 1年目](/images/stellar2.webp)
+![Steller Memories 1年目](/images/stellar3.webp)
+`
+  },
+  {
+    title: "コンテンツ東京 VRChat Inc.ブース VR体験スタッフ",
+    year: "2026",
+    platform: "Real Event",
+    role: "Event Staff",
+    description: "2026年6月17日～19日に開催されたビジネスイベント「コンテンツ東京」にて、VRChat Inc.ブースのVR体験スタッフとして参加。",
+    category: "Event Staff",
+    tags: ["Event Staff"],
+    imageUrl: "/images/vrc.webp",
+    detail: `ビジネスイベント「コンテンツ東京」にて、VRChat Inc.ブースのVR体験スタッフとして参加。
+
+【担当】
+来場者へのVRChat体験案内を担当。VR機器の装着・操作サポートを行い、初めてVRChatに触れる来場者にも体験内容や操作方法が伝わるよう、スムーズな体験をサポートしました。
+
+▶ VRChat公式サイト: https://hello.vrchat.com/`
+  },
   {
     title: "超メタフェス Diver-Xブース 説明員",
     year: "2025-2026",
