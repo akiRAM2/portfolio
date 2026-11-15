@@ -49,6 +49,32 @@ export const projects = [
 ドキュメントの更新・管理フローの設計・導入支援。また、チームメンバーに対する技術的ナレッジの共有やフォローアップも行っています。`
   },
   {
+    title: "労働力VR",
+    year: "2026",
+    platform: "Resonite (VR)",
+    description: "健康器具のステッパーと連動し、VR空間の巨大な装置を回して砂漠を緑化する体感型VRゲーム。東京ゲームダンジョン14で99人が体験。4Gamer掲載。",
+    category: "Game",
+    tags: ["VR", "体感型アトラクション"],
+    imageUrl: "https://www.youtube.com/embed/xba0peMsId4?rel=0",
+    thumbnailUrl: "/images/roudouryoku-vr.mp4",
+    detail: `現実の健康器具「ステッパー」を踏み込み、VR空間の巨大な棒がついた装置を回して砂漠を緑化する、体感型VRゲーム「労働力VR」。
+
+身体を動かす運動とVRゲームを組み合わせ、プレイヤー自身の「労働力」で世界を変えていく体験を制作しました。
+
+**【出展・体験実績】**
+2026年10月31日開催の「東京ゲームダンジョン14」に出展し、99人の来場者に体験いただきました。
+クリアまでの平均タイムは56秒。短時間で身体を動かして楽しめるVRアトラクションです。
+
+**【メディア掲載】4Gamer**
+ゲームメディア「4Gamer」の「東京ゲームダンジョン14」レポート（後編）に掲載されました。ペダル運動器との連動や、装置を回すうちに天候が変化し、長い年月の経過を感じられる体験が紹介されています。
+[4Gamerの掲載記事を読む](https://www.4gamer.net/s/G999110.261106043)
+
+【紹介・出展レポート】
+https://x.com/akiram_vr/status/2115209428714602794
+https://x.com/akiram_vr/status/2116533967256220095
+https://x.com/akiram_vr/status/2119013046828077098`
+  },
+  {
     title: "SHOCK STICK",
     year: "2025",
     platform: "Resonite (VR)",
@@ -128,23 +154,6 @@ https://twitter.com/akiram_vr/status/1950040395301158943
 https://twitter.com/SawaeMika/status/1948943433571438852`
   },
   {
-    title: "VketReal 2024 Summer 'AVATAR MEETS'",
-    year: "2024",
-    platform: "Resonite",
-    description: "VketReal 2024 Summerにてバーチャル×リアル連動コンテンツ「AVATAR MEETS」の3Dアセットを制作。©WeaverseLab株式会社。",
-    category: "Assets",
-    tags: ["3D Assets"],
-    imageUrl: "/images/vketreal2024.webp",
-    detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
-
-【制作アセット】太鼓、杵・臼、土俵など
-日本らしいモチーフを実在感のある質感で表現しつつ、VR空間での映えを意識した揺れもの要素や、インタラクションに応じたEmission発光ギミックを使用できるようにしました。視覚的な楽しさとインタラクティブ性を両立させました。
-
-▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
-
-![VketReal画像](/images/vketreal2024_2.webp)`
-  },
-  {
     title: "BOOTHアセット販売",
     year: "Ongoing",
     platform: "VRChat/Resonite",
@@ -173,6 +182,24 @@ Vket2025 Winterに出展している様子
 ];
 
 const designProjects = [
+  {
+    title: "VketReal 2024 Summer 'AVATAR MEETS'",
+    year: "2024",
+    platform: "Resonite",
+    description: "VketReal 2024 Summerにてバーチャル×リアル連動コンテンツ「AVATAR MEETS」の3Dアセットを制作。©WeaverseLab株式会社。",
+    category: "Assets",
+    tags: ["3D Assets"],
+    imageUrl: "/images/vketreal2024.webp",
+    detail: `『VketReal 2024 Summer - AVATAR MEETS』における、お祭りをテーマにしたリアル連動コンテンツの3Dアセット制作を担当。(©WeaverseLab株式会社)
+
+【制作アセット】太鼓、杵・臼、土俵など
+日本らしいモチーフを実在感のある質感で表現しつつ、VR空間での映えを意識した揺れもの要素や、インタラクションに応じたEmission発光ギミックを使用できるようにしました。視覚的な楽しさとインタラクティブ性を両立させました。
+
+▶ デモ動画: https://www.youtube.com/embed/76yVSJMtiG4?rel=0
+
+![VketReal画像](/images/vketreal2024_2.webp)`
+  },
+
   {
     title: "Train Light",
     year: "2025",
@@ -315,7 +342,7 @@ akiRAM - Visual Artist
   }
 ];
 
-const featuredDesignTitles = ["下へ参ります。", "いろいろおばけ"];
+const featuredDesignTitles = ["下へ参ります。", "VketReal 2024 Summer 'AVATAR MEETS'", "いろいろおばけ"];
 const reorderedDesignTitles = new Set([...featuredDesignTitles, "思い出降る空"]);
 
 export const assets = [
@@ -355,6 +382,26 @@ SF的な神殿をモチーフに、荘厳かつ神聖な雰囲気を演出。来
 ![Steller Memories 1年目](/images/stellar2.webp)
 ![Steller Memories 1年目](/images/stellar3.webp)
 `
+  },
+  {
+    title: "TGS2026 VRChat Inc.ブース VR体験スタッフ",
+    year: "2026",
+    platform: "Real Event",
+    role: "Event Staff, PC Setup",
+    description: "2026年9月17日〜20日開催の「TOKYO GAME SHOW 2026」にて、VRChat Inc.ブースのVR体験スタッフ・PCキッティング等を担当。",
+    category: "Event Staff",
+    tags: ["Event Staff", "Technical Support"],
+    imageUrl: "/images/tgs2026-vrchat.webp",
+    detail: `2026年9月17日〜20日に開催されたゲーム関連イベント「TOKYO GAME SHOW 2026」にて、VRChat Inc.様のブースでVR体験スタッフやPCキッティング等を担当しました。
+
+【担当領域】
+**・VR体験スタッフ**
+来場者に向けたVR体験の案内・サポートを担当。
+
+**・PCキッティング等**
+展示・体験用PCのセットアップなど、機材面の準備を担当しました。
+
+▶ VRChat公式サイト: https://hello.vrchat.com/`
   },
   {
     title: "コンテンツ東京 VRChat Inc.ブース VR体験スタッフ",
